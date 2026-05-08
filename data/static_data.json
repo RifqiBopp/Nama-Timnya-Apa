@@ -1,0 +1,4541 @@
+{
+    "stats": {
+        "total_provinces": 38,
+        "avg_resilience": 3.73,
+        "total_qris": 7241.0,
+        "top_resilient": "DKI Jakarta",
+        "top_resilient_score": 10.0,
+        "avg_digital_adoption": 11.9,
+        "cluster_counts": {
+            "tangguh": 1,
+            "transisi": 3,
+            "rentan": 34
+        }
+    },
+    "provinces_data": [
+        {
+            "Provinsi": "Aceh",
+            "PDRB_Triliun": 195.42,
+            "Tingkat_Kemiskinan_Persen": 12.22,
+            "Volume_QRIS_Juta": 32.18,
+            "Economic_Resilience_Index": 2.98,
+            "Digital_Adoption_Score": 1.9,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 26.42,
+                    "PDRB_Triliun": 180.94
+                },
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 27.15,
+                    "PDRB_Triliun": 183.04
+                },
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 28.04,
+                    "PDRB_Triliun": 186.74
+                },
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 30.55,
+                    "PDRB_Triliun": 191.64
+                },
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 33.09,
+                    "PDRB_Triliun": 189.5
+                },
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 30.83,
+                    "PDRB_Triliun": 194.74
+                },
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 33.77,
+                    "PDRB_Triliun": 198.44
+                },
+                {
+                    "Provinsi": "Aceh",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 32.45,
+                    "PDRB_Triliun": 198.25
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "PDRB_Triliun": 412.3,
+            "Tingkat_Kemiskinan_Persen": 8.45,
+            "Volume_QRIS_Juta": 248.6,
+            "Economic_Resilience_Index": 3.99,
+            "Digital_Adoption_Score": 15.6,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 202.77,
+                    "PDRB_Triliun": 381.76
+                },
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 212.39,
+                    "PDRB_Triliun": 385.75
+                },
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 222.05,
+                    "PDRB_Triliun": 389.89
+                },
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 250.8,
+                    "PDRB_Triliun": 402.47
+                },
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 233.53,
+                    "PDRB_Triliun": 407.48
+                },
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 249.59,
+                    "PDRB_Triliun": 410.3
+                },
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 241.92,
+                    "PDRB_Triliun": 410.59
+                },
+                {
+                    "Provinsi": "Sumatera Utara",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 287.56,
+                    "PDRB_Triliun": 422.38
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "PDRB_Triliun": 328.15,
+            "Tingkat_Kemiskinan_Persen": 5.95,
+            "Volume_QRIS_Juta": 168.4,
+            "Economic_Resilience_Index": 4.02,
+            "Digital_Adoption_Score": 10.5,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 134.09,
+                    "PDRB_Triliun": 303.84
+                },
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 147.53,
+                    "PDRB_Triliun": 309.6
+                },
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 154.37,
+                    "PDRB_Triliun": 310.46
+                },
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 149.55,
+                    "PDRB_Triliun": 315.92
+                },
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 161.42,
+                    "PDRB_Triliun": 326.07
+                },
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 167.1,
+                    "PDRB_Triliun": 327.28
+                },
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 167.63,
+                    "PDRB_Triliun": 323.43
+                },
+                {
+                    "Provinsi": "Sumatera Barat",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 212.71,
+                    "PDRB_Triliun": 329.34
+                }
+            ]
+        },
+        {
+            "Provinsi": "Riau",
+            "PDRB_Triliun": 283.7,
+            "Tingkat_Kemiskinan_Persen": 4.68,
+            "Volume_QRIS_Juta": 63.25,
+            "Economic_Resilience_Index": 3.9,
+            "Digital_Adoption_Score": 3.9,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 51.65,
+                    "PDRB_Triliun": 262.69
+                },
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 54.95,
+                    "PDRB_Triliun": 265.51
+                },
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 55.11,
+                    "PDRB_Triliun": 272.47
+                },
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 60.02,
+                    "PDRB_Triliun": 271.07
+                },
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 59.94,
+                    "PDRB_Triliun": 280.86
+                },
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 67.58,
+                    "PDRB_Triliun": 282.02
+                },
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 62.45,
+                    "PDRB_Triliun": 290.44
+                },
+                {
+                    "Provinsi": "Riau",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 72.29,
+                    "PDRB_Triliun": 290.15
+                }
+            ]
+        },
+        {
+            "Provinsi": "Jambi",
+            "PDRB_Triliun": 113.25,
+            "Tingkat_Kemiskinan_Persen": 10.82,
+            "Volume_QRIS_Juta": 15.8,
+            "Economic_Resilience_Index": 3.03,
+            "Digital_Adoption_Score": 0.9,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 12.71,
+                    "PDRB_Triliun": 104.86
+                },
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 12.95,
+                    "PDRB_Triliun": 106.58
+                },
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 13.91,
+                    "PDRB_Triliun": 108.86
+                },
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 14.32,
+                    "PDRB_Triliun": 110.38
+                },
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 14.64,
+                    "PDRB_Triliun": 110.27
+                },
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 15.39,
+                    "PDRB_Triliun": 114.34
+                },
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 17.65,
+                    "PDRB_Triliun": 116.21
+                },
+                {
+                    "Provinsi": "Jambi",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 16.45,
+                    "PDRB_Triliun": 116.16
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "PDRB_Triliun": 115.8,
+            "Tingkat_Kemiskinan_Persen": 8.12,
+            "Volume_QRIS_Juta": 59.7,
+            "Economic_Resilience_Index": 3.4,
+            "Digital_Adoption_Score": 3.7,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 48.91,
+                    "PDRB_Triliun": 107.22
+                },
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 49.33,
+                    "PDRB_Triliun": 108.75
+                },
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 55.67,
+                    "PDRB_Triliun": 109.38
+                },
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 56.01,
+                    "PDRB_Triliun": 111.15
+                },
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 54.76,
+                    "PDRB_Triliun": 115.56
+                },
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 59.29,
+                    "PDRB_Triliun": 116.35
+                },
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 62.97,
+                    "PDRB_Triliun": 119.85
+                },
+                {
+                    "Provinsi": "Sumatera Selatan",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 62.49,
+                    "PDRB_Triliun": 116.99
+                }
+            ]
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "PDRB_Triliun": 76.45,
+            "Tingkat_Kemiskinan_Persen": 5.01,
+            "Volume_QRIS_Juta": 36.1,
+            "Economic_Resilience_Index": 3.64,
+            "Digital_Adoption_Score": 2.2,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 28.57,
+                    "PDRB_Triliun": 70.79
+                },
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 30.2,
+                    "PDRB_Triliun": 71.69
+                },
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 33.2,
+                    "PDRB_Triliun": 72.41
+                },
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 34.44,
+                    "PDRB_Triliun": 73.42
+                },
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 36.82,
+                    "PDRB_Triliun": 74.29
+                },
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 38.63,
+                    "PDRB_Triliun": 76.56
+                },
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 39.93,
+                    "PDRB_Triliun": 75.42
+                },
+                {
+                    "Provinsi": "Bengkulu",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 43.53,
+                    "PDRB_Triliun": 76.67
+                }
+            ]
+        },
+        {
+            "Provinsi": "Lampung",
+            "PDRB_Triliun": 381.2,
+            "Tingkat_Kemiskinan_Persen": 8.95,
+            "Volume_QRIS_Juta": 182.5,
+            "Economic_Resilience_Index": 3.78,
+            "Digital_Adoption_Score": 11.4,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 147.71,
+                    "PDRB_Triliun": 352.96
+                },
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 151.79,
+                    "PDRB_Triliun": 357.29
+                },
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 163.59,
+                    "PDRB_Triliun": 364.9
+                },
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 171.53,
+                    "PDRB_Triliun": 365.01
+                },
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 172.6,
+                    "PDRB_Triliun": 380.14
+                },
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 200.11,
+                    "PDRB_Triliun": 382.26
+                },
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 210.08,
+                    "PDRB_Triliun": 385.36
+                },
+                {
+                    "Provinsi": "Lampung",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 188.15,
+                    "PDRB_Triliun": 399.84
+                }
+            ]
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "PDRB_Triliun": 279.15,
+            "Tingkat_Kemiskinan_Persen": 4.05,
+            "Volume_QRIS_Juta": 140.2,
+            "Economic_Resilience_Index": 4.12,
+            "Digital_Adoption_Score": 8.8,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 113.67,
+                    "PDRB_Triliun": 258.47
+                },
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 119.45,
+                    "PDRB_Triliun": 263.38
+                },
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 131.14,
+                    "PDRB_Triliun": 266.96
+                },
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 123.14,
+                    "PDRB_Triliun": 273.19
+                },
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 138.13,
+                    "PDRB_Triliun": 269.86
+                },
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 146.54,
+                    "PDRB_Triliun": 273.47
+                },
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 152.9,
+                    "PDRB_Triliun": 284.09
+                },
+                {
+                    "Provinsi": "Kep. Bangka Belitung",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 146.64,
+                    "PDRB_Triliun": 280.86
+                }
+            ]
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "PDRB_Triliun": 320.5,
+            "Tingkat_Kemiskinan_Persen": 12.85,
+            "Volume_QRIS_Juta": 52.4,
+            "Economic_Resilience_Index": 3.06,
+            "Digital_Adoption_Score": 3.2,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 42.67,
+                    "PDRB_Triliun": 296.76
+                },
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 45.59,
+                    "PDRB_Triliun": 301.41
+                },
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 44.97,
+                    "PDRB_Triliun": 304.27
+                },
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 48.41,
+                    "PDRB_Triliun": 309.16
+                },
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 55.09,
+                    "PDRB_Triliun": 318.06
+                },
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 54.04,
+                    "PDRB_Triliun": 318.91
+                },
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 52.72,
+                    "PDRB_Triliun": 319.56
+                },
+                {
+                    "Provinsi": "Kep. Riau",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 51.74,
+                    "PDRB_Triliun": 321.21
+                }
+            ]
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "PDRB_Triliun": 3900.0,
+            "Tingkat_Kemiskinan_Persen": 4.03,
+            "Volume_QRIS_Juta": 1580.0,
+            "Economic_Resilience_Index": 10.0,
+            "Digital_Adoption_Score": 100.0,
+            "Cluster": 2,
+            "Status": "Tangguh",
+            "recommendation": {
+                "level": "optimal",
+                "title": "Optimal - Tangguh",
+                "text": "Ekonomi sangat tangguh dengan digitalisasi tinggi. Pemda dapat beralih ke program pendanaan scale-up UMKM menuju ekspor dan penguatan regulasi keamanan siber.",
+                "actions": [
+                    "Program scale-up UMKM digital menuju pasar ekspor",
+                    "Penguatan infrastruktur keamanan siber daerah",
+                    "Pengembangan ekosistem fintech dan startup digital",
+                    "Menjadi model percontohan untuk daerah lain"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 1297.33,
+                    "PDRB_Triliun": 3611.11
+                },
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 1311.31,
+                    "PDRB_Triliun": 3680.74
+                },
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 1428.99,
+                    "PDRB_Triliun": 3752.93
+                },
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 1541.43,
+                    "PDRB_Triliun": 3761.16
+                },
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 1634.67,
+                    "PDRB_Triliun": 3780.04
+                },
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 1664.92,
+                    "PDRB_Triliun": 3917.34
+                },
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 1700.93,
+                    "PDRB_Triliun": 3961.03
+                },
+                {
+                    "Provinsi": "DKI Jakarta",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 1964.96,
+                    "PDRB_Triliun": 3994.91
+                }
+            ]
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "PDRB_Triliun": 2850.0,
+            "Tingkat_Kemiskinan_Persen": 7.18,
+            "Volume_QRIS_Juta": 1180.0,
+            "Economic_Resilience_Index": 8.0,
+            "Digital_Adoption_Score": 74.6,
+            "Cluster": 0,
+            "Status": "Transisi",
+            "recommendation": {
+                "level": "transition",
+                "title": "Masa Transisi - Moderat",
+                "text": "Daerah dalam masa transisi menuju digitalisasi penuh. Tingkatkan kampanye penggunaan QRIS di pasar tradisional dan perluas kerja sama BPD dengan Fintech.",
+                "actions": [
+                    "Kampanye penggunaan QRIS di pasar tradisional dan warung",
+                    "Kerja sama BPD dengan platform fintech untuk inklusi keuangan",
+                    "Peningkatan infrastruktur jaringan internet di daerah pelosok",
+                    "Pilot project smart village berbasis pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 960.78,
+                    "PDRB_Triliun": 2638.89
+                },
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 1008.24,
+                    "PDRB_Triliun": 2673.03
+                },
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 1097.53,
+                    "PDRB_Triliun": 2737.43
+                },
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 1168.05,
+                    "PDRB_Triliun": 2757.76
+                },
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 1223.45,
+                    "PDRB_Triliun": 2818.54
+                },
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 1298.52,
+                    "PDRB_Triliun": 2815.43
+                },
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 1214.67,
+                    "PDRB_Triliun": 2888.78
+                },
+                {
+                    "Provinsi": "Jawa Barat",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 1162.11,
+                    "PDRB_Triliun": 2923.85
+                }
+            ]
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "PDRB_Triliun": 1890.0,
+            "Tingkat_Kemiskinan_Persen": 6.92,
+            "Volume_QRIS_Juta": 940.0,
+            "Economic_Resilience_Index": 6.76,
+            "Digital_Adoption_Score": 59.4,
+            "Cluster": 0,
+            "Status": "Transisi",
+            "recommendation": {
+                "level": "transition",
+                "title": "Masa Transisi - Moderat",
+                "text": "Daerah dalam masa transisi menuju digitalisasi penuh. Tingkatkan kampanye penggunaan QRIS di pasar tradisional dan perluas kerja sama BPD dengan Fintech.",
+                "actions": [
+                    "Kampanye penggunaan QRIS di pasar tradisional dan warung",
+                    "Kerja sama BPD dengan platform fintech untuk inklusi keuangan",
+                    "Peningkatan infrastruktur jaringan internet di daerah pelosok",
+                    "Pilot project smart village berbasis pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 760.82,
+                    "PDRB_Triliun": 1750.0
+                },
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 792.0,
+                    "PDRB_Triliun": 1773.8
+                },
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 813.85,
+                    "PDRB_Triliun": 1811.95
+                },
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 854.56,
+                    "PDRB_Triliun": 1806.98
+                },
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 857.82,
+                    "PDRB_Triliun": 1857.84
+                },
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 999.43,
+                    "PDRB_Triliun": 1922.89
+                },
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 1006.56,
+                    "PDRB_Triliun": 1938.49
+                },
+                {
+                    "Provinsi": "Jawa Tengah",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 987.27,
+                    "PDRB_Triliun": 1882.11
+                }
+            ]
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "PDRB_Triliun": 134.8,
+            "Tingkat_Kemiskinan_Persen": 9.15,
+            "Volume_QRIS_Juta": 58.6,
+            "Economic_Resilience_Index": 3.3,
+            "Digital_Adoption_Score": 3.6,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 48.13,
+                    "PDRB_Triliun": 124.81
+                },
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 50.15,
+                    "PDRB_Triliun": 126.28
+                },
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 50.36,
+                    "PDRB_Triliun": 128.68
+                },
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 56.88,
+                    "PDRB_Triliun": 129.61
+                },
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 62.4,
+                    "PDRB_Triliun": 132.58
+                },
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 61.42,
+                    "PDRB_Triliun": 132.6
+                },
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 61.3,
+                    "PDRB_Triliun": 132.41
+                },
+                {
+                    "Provinsi": "DI Yogyakarta",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 58.24,
+                    "PDRB_Triliun": 133.91
+                }
+            ]
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "PDRB_Triliun": 3150.0,
+            "Tingkat_Kemiskinan_Persen": 9.48,
+            "Volume_QRIS_Juta": 1050.0,
+            "Economic_Resilience_Index": 7.75,
+            "Digital_Adoption_Score": 66.4,
+            "Cluster": 0,
+            "Status": "Transisi",
+            "recommendation": {
+                "level": "transition",
+                "title": "Masa Transisi - Moderat",
+                "text": "Daerah dalam masa transisi menuju digitalisasi penuh. Tingkatkan kampanye penggunaan QRIS di pasar tradisional dan perluas kerja sama BPD dengan Fintech.",
+                "actions": [
+                    "Kampanye penggunaan QRIS di pasar tradisional dan warung",
+                    "Kerja sama BPD dengan platform fintech untuk inklusi keuangan",
+                    "Peningkatan infrastruktur jaringan internet di daerah pelosok",
+                    "Pilot project smart village berbasis pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 853.67,
+                    "PDRB_Triliun": 2916.67
+                },
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 876.04,
+                    "PDRB_Triliun": 2959.64
+                },
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 910.01,
+                    "PDRB_Triliun": 2998.25
+                },
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 1005.78,
+                    "PDRB_Triliun": 3008.13
+                },
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 1016.09,
+                    "PDRB_Triliun": 3092.03
+                },
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 1160.48,
+                    "PDRB_Triliun": 3086.26
+                },
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 1021.94,
+                    "PDRB_Triliun": 3096.31
+                },
+                {
+                    "Provinsi": "Jawa Timur",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 1213.11,
+                    "PDRB_Triliun": 3238.33
+                }
+            ]
+        },
+        {
+            "Provinsi": "Banten",
+            "PDRB_Triliun": 128.6,
+            "Tingkat_Kemiskinan_Persen": 5.52,
+            "Volume_QRIS_Juta": 21.8,
+            "Economic_Resilience_Index": 3.61,
+            "Digital_Adoption_Score": 1.2,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 17.68,
+                    "PDRB_Triliun": 119.07
+                },
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 18.9,
+                    "PDRB_Triliun": 120.72
+                },
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 20.61,
+                    "PDRB_Triliun": 121.92
+                },
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 19.07,
+                    "PDRB_Triliun": 122.71
+                },
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 20.15,
+                    "PDRB_Triliun": 124.18
+                },
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 21.86,
+                    "PDRB_Triliun": 125.17
+                },
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 24.89,
+                    "PDRB_Triliun": 127.06
+                },
+                {
+                    "Provinsi": "Banten",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 25.65,
+                    "PDRB_Triliun": 134.72
+                }
+            ]
+        },
+        {
+            "Provinsi": "Bali",
+            "PDRB_Triliun": 172.3,
+            "Tingkat_Kemiskinan_Persen": 3.42,
+            "Volume_QRIS_Juta": 48.7,
+            "Economic_Resilience_Index": 3.92,
+            "Digital_Adoption_Score": 3.0,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 39.75,
+                    "PDRB_Triliun": 159.54
+                },
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 41.19,
+                    "PDRB_Triliun": 162.42
+                },
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 45.38,
+                    "PDRB_Triliun": 163.91
+                },
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 47.13,
+                    "PDRB_Triliun": 168.78
+                },
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 50.62,
+                    "PDRB_Triliun": 170.71
+                },
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 51.95,
+                    "PDRB_Triliun": 174.71
+                },
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 52.81,
+                    "PDRB_Triliun": 172.17
+                },
+                {
+                    "Provinsi": "Bali",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 59.66,
+                    "PDRB_Triliun": 170.83
+                }
+            ]
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "PDRB_Triliun": 252.4,
+            "Tingkat_Kemiskinan_Persen": 11.65,
+            "Volume_QRIS_Juta": 72.3,
+            "Economic_Resilience_Index": 3.17,
+            "Digital_Adoption_Score": 4.4,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 57.35,
+                    "PDRB_Triliun": 233.7
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 63.88,
+                    "PDRB_Triliun": 237.38
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 65.37,
+                    "PDRB_Triliun": 239.75
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 66.83,
+                    "PDRB_Triliun": 245.99
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 75.21,
+                    "PDRB_Triliun": 243.9
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 73.23,
+                    "PDRB_Triliun": 251.81
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 77.43,
+                    "PDRB_Triliun": 252.65
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Barat",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 72.11,
+                    "PDRB_Triliun": 262.52
+                }
+            ]
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "PDRB_Triliun": 218.5,
+            "Tingkat_Kemiskinan_Persen": 17.5,
+            "Volume_QRIS_Juta": 105.4,
+            "Economic_Resilience_Index": 2.59,
+            "Digital_Adoption_Score": 6.5,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 83.64,
+                    "PDRB_Triliun": 202.31
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 89.08,
+                    "PDRB_Triliun": 206.0
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 94.68,
+                    "PDRB_Triliun": 206.7
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 104.8,
+                    "PDRB_Triliun": 210.63
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 110.54,
+                    "PDRB_Triliun": 218.39
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 113.34,
+                    "PDRB_Triliun": 213.28
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 120.32,
+                    "PDRB_Triliun": 219.6
+                },
+                {
+                    "Provinsi": "Nusa Tenggara Timur",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 128.49,
+                    "PDRB_Triliun": 223.45
+                }
+            ]
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "PDRB_Triliun": 165.2,
+            "Tingkat_Kemiskinan_Persen": 12.4,
+            "Volume_QRIS_Juta": 72.5,
+            "Economic_Resilience_Index": 3.02,
+            "Digital_Adoption_Score": 4.5,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 58.39,
+                    "PDRB_Triliun": 152.96
+                },
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 59.67,
+                    "PDRB_Triliun": 155.49
+                },
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 66.53,
+                    "PDRB_Triliun": 158.97
+                },
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 66.52,
+                    "PDRB_Triliun": 161.54
+                },
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 69.18,
+                    "PDRB_Triliun": 159.16
+                },
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 80.35,
+                    "PDRB_Triliun": 167.43
+                },
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 79.4,
+                    "PDRB_Triliun": 162.82
+                },
+                {
+                    "Provinsi": "Kalimantan Barat",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 83.18,
+                    "PDRB_Triliun": 169.27
+                }
+            ]
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "PDRB_Triliun": 285.6,
+            "Tingkat_Kemiskinan_Persen": 9.85,
+            "Volume_QRIS_Juta": 158.3,
+            "Economic_Resilience_Index": 3.56,
+            "Digital_Adoption_Score": 9.9,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 128.66,
+                    "PDRB_Triliun": 264.44
+                },
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 135.93,
+                    "PDRB_Triliun": 269.47
+                },
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 134.78,
+                    "PDRB_Triliun": 274.76
+                },
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 155.97,
+                    "PDRB_Triliun": 277.3
+                },
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 148.47,
+                    "PDRB_Triliun": 279.93
+                },
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 158.52,
+                    "PDRB_Triliun": 278.69
+                },
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 190.44,
+                    "PDRB_Triliun": 291.39
+                },
+                {
+                    "Provinsi": "Kalimantan Tengah",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 177.45,
+                    "PDRB_Triliun": 298.02
+                }
+            ]
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "PDRB_Triliun": 108.45,
+            "Tingkat_Kemiskinan_Persen": 3.73,
+            "Volume_QRIS_Juta": 39.2,
+            "Economic_Resilience_Index": 3.81,
+            "Digital_Adoption_Score": 2.4,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 31.19,
+                    "PDRB_Triliun": 100.42
+                },
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 34.43,
+                    "PDRB_Triliun": 102.15
+                },
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 35.35,
+                    "PDRB_Triliun": 104.3
+                },
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 37.99,
+                    "PDRB_Triliun": 103.51
+                },
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 38.18,
+                    "PDRB_Triliun": 108.4
+                },
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 37.66,
+                    "PDRB_Triliun": 107.35
+                },
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 46.93,
+                    "PDRB_Triliun": 111.49
+                },
+                {
+                    "Provinsi": "Kalimantan Selatan",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 43.33,
+                    "PDRB_Triliun": 109.37
+                }
+            ]
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "PDRB_Triliun": 168.9,
+            "Tingkat_Kemiskinan_Persen": 4.55,
+            "Volume_QRIS_Juta": 31.4,
+            "Economic_Resilience_Index": 3.76,
+            "Digital_Adoption_Score": 1.9,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 25.69,
+                    "PDRB_Triliun": 156.39
+                },
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 27.85,
+                    "PDRB_Triliun": 158.82
+                },
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 29.24,
+                    "PDRB_Triliun": 162.17
+                },
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 28.49,
+                    "PDRB_Triliun": 161.69
+                },
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 33.3,
+                    "PDRB_Triliun": 164.07
+                },
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 33.49,
+                    "PDRB_Triliun": 167.01
+                },
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 30.92,
+                    "PDRB_Triliun": 170.65
+                },
+                {
+                    "Provinsi": "Kalimantan Timur",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 37.51,
+                    "PDRB_Triliun": 176.67
+                }
+            ]
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "PDRB_Triliun": 192.5,
+            "Tingkat_Kemiskinan_Persen": 5.78,
+            "Volume_QRIS_Juta": 90.8,
+            "Economic_Resilience_Index": 3.77,
+            "Digital_Adoption_Score": 5.6,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 73.4,
+                    "PDRB_Triliun": 178.24
+                },
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 75.83,
+                    "PDRB_Triliun": 180.07
+                },
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 83.5,
+                    "PDRB_Triliun": 184.32
+                },
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 81.09,
+                    "PDRB_Triliun": 183.67
+                },
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 87.41,
+                    "PDRB_Triliun": 188.17
+                },
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 93.4,
+                    "PDRB_Triliun": 190.26
+                },
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 98.53,
+                    "PDRB_Triliun": 193.18
+                },
+                {
+                    "Provinsi": "Kalimantan Utara",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 105.61,
+                    "PDRB_Triliun": 202.56
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "PDRB_Triliun": 226.4,
+            "Tingkat_Kemiskinan_Persen": 4.12,
+            "Volume_QRIS_Juta": 112.5,
+            "Economic_Resilience_Index": 4.01,
+            "Digital_Adoption_Score": 7.0,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 92.27,
+                    "PDRB_Triliun": 209.63
+                },
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 94.47,
+                    "PDRB_Triliun": 213.78
+                },
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 100.02,
+                    "PDRB_Triliun": 216.48
+                },
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 100.62,
+                    "PDRB_Triliun": 216.73
+                },
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 102.67,
+                    "PDRB_Triliun": 219.18
+                },
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 117.72,
+                    "PDRB_Triliun": 223.73
+                },
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 131.37,
+                    "PDRB_Triliun": 230.6
+                },
+                {
+                    "Provinsi": "Sulawesi Utara",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 114.13,
+                    "PDRB_Triliun": 224.9
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "PDRB_Triliun": 348.7,
+            "Tingkat_Kemiskinan_Persen": 10.52,
+            "Volume_QRIS_Juta": 139.8,
+            "Economic_Resilience_Index": 3.5,
+            "Digital_Adoption_Score": 8.7,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 111.74,
+                    "PDRB_Triliun": 322.87
+                },
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 114.91,
+                    "PDRB_Triliun": 327.59
+                },
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 121.22,
+                    "PDRB_Triliun": 332.58
+                },
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 132.49,
+                    "PDRB_Triliun": 340.3
+                },
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 138.54,
+                    "PDRB_Triliun": 347.07
+                },
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 153.63,
+                    "PDRB_Triliun": 343.48
+                },
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 161.42,
+                    "PDRB_Triliun": 345.82
+                },
+                {
+                    "Provinsi": "Sulawesi Tengah",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 144.09,
+                    "PDRB_Triliun": 356.42
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "PDRB_Triliun": 132.6,
+            "Tingkat_Kemiskinan_Persen": 7.68,
+            "Volume_QRIS_Juta": 66.4,
+            "Economic_Resilience_Index": 3.47,
+            "Digital_Adoption_Score": 4.1,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 53.27,
+                    "PDRB_Triliun": 122.78
+                },
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 56.16,
+                    "PDRB_Triliun": 124.32
+                },
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 61.43,
+                    "PDRB_Triliun": 126.49
+                },
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 61.8,
+                    "PDRB_Triliun": 128.11
+                },
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 65.13,
+                    "PDRB_Triliun": 129.01
+                },
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 65.6,
+                    "PDRB_Triliun": 130.89
+                },
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 66.21,
+                    "PDRB_Triliun": 131.03
+                },
+                {
+                    "Provinsi": "Sulawesi Selatan",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 81.68,
+                    "PDRB_Triliun": 137.21
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "PDRB_Triliun": 249.2,
+            "Tingkat_Kemiskinan_Persen": 6.45,
+            "Volume_QRIS_Juta": 91.5,
+            "Economic_Resilience_Index": 3.75,
+            "Digital_Adoption_Score": 5.7,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 73.79,
+                    "PDRB_Triliun": 230.74
+                },
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 78.24,
+                    "PDRB_Triliun": 234.77
+                },
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 80.3,
+                    "PDRB_Triliun": 236.67
+                },
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 84.88,
+                    "PDRB_Triliun": 241.61
+                },
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 89.34,
+                    "PDRB_Triliun": 245.56
+                },
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 88.06,
+                    "PDRB_Triliun": 244.04
+                },
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 91.52,
+                    "PDRB_Triliun": 247.17
+                },
+                {
+                    "Provinsi": "Sulawesi Tenggara",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 95.69,
+                    "PDRB_Triliun": 261.38
+                }
+            ]
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "PDRB_Triliun": 275.8,
+            "Tingkat_Kemiskinan_Persen": 12.62,
+            "Volume_QRIS_Juta": 105.2,
+            "Economic_Resilience_Index": 3.15,
+            "Digital_Adoption_Score": 6.5,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 84.92,
+                    "PDRB_Triliun": 255.37
+                },
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 90.23,
+                    "PDRB_Triliun": 258.94
+                },
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 99.39,
+                    "PDRB_Triliun": 264.65
+                },
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 94.64,
+                    "PDRB_Triliun": 268.15
+                },
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 110.98,
+                    "PDRB_Triliun": 271.42
+                },
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 104.42,
+                    "PDRB_Triliun": 270.53
+                },
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 108.09,
+                    "PDRB_Triliun": 278.47
+                },
+                {
+                    "Provinsi": "Gorontalo",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 108.55,
+                    "PDRB_Triliun": 284.16
+                }
+            ]
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "PDRB_Triliun": 72.4,
+            "Tingkat_Kemiskinan_Persen": 7.28,
+            "Volume_QRIS_Juta": 24.6,
+            "Economic_Resilience_Index": 3.38,
+            "Digital_Adoption_Score": 1.4,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 19.9,
+                    "PDRB_Triliun": 67.04
+                },
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 20.94,
+                    "PDRB_Triliun": 67.74
+                },
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 21.41,
+                    "PDRB_Triliun": 68.46
+                },
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 24.43,
+                    "PDRB_Triliun": 70.68
+                },
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 23.37,
+                    "PDRB_Triliun": 71.76
+                },
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 25.75,
+                    "PDRB_Triliun": 71.77
+                },
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 25.83,
+                    "PDRB_Triliun": 74.4
+                },
+                {
+                    "Provinsi": "Sulawesi Barat",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 30.41,
+                    "PDRB_Triliun": 75.16
+                }
+            ]
+        },
+        {
+            "Provinsi": "Maluku",
+            "PDRB_Triliun": 282.3,
+            "Tingkat_Kemiskinan_Persen": 15.25,
+            "Volume_QRIS_Juta": 38.9,
+            "Economic_Resilience_Index": 2.75,
+            "Digital_Adoption_Score": 2.3,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 30.97,
+                    "PDRB_Triliun": 261.39
+                },
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 33.57,
+                    "PDRB_Triliun": 266.2
+                },
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 34.06,
+                    "PDRB_Triliun": 267.67
+                },
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 34.54,
+                    "PDRB_Triliun": 275.62
+                },
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 39.34,
+                    "PDRB_Triliun": 275.6
+                },
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 42.82,
+                    "PDRB_Triliun": 285.13
+                },
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 41.0,
+                    "PDRB_Triliun": 284.33
+                },
+                {
+                    "Provinsi": "Maluku",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 41.58,
+                    "PDRB_Triliun": 288.88
+                }
+            ]
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "PDRB_Triliun": 119.5,
+            "Tingkat_Kemiskinan_Persen": 9.3,
+            "Volume_QRIS_Juta": 21.8,
+            "Economic_Resilience_Index": 3.2,
+            "Digital_Adoption_Score": 1.2,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 17.86,
+                    "PDRB_Triliun": 110.65
+                },
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 18.87,
+                    "PDRB_Triliun": 112.45
+                },
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 19.15,
+                    "PDRB_Triliun": 114.25
+                },
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 19.79,
+                    "PDRB_Triliun": 116.6
+                },
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 21.89,
+                    "PDRB_Triliun": 119.03
+                },
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 23.44,
+                    "PDRB_Triliun": 117.91
+                },
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 22.23,
+                    "PDRB_Triliun": 117.51
+                },
+                {
+                    "Provinsi": "Maluku Utara",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 24.96,
+                    "PDRB_Triliun": 125.18
+                }
+            ]
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "PDRB_Triliun": 78.9,
+            "Tingkat_Kemiskinan_Persen": 19.58,
+            "Volume_QRIS_Juta": 11.4,
+            "Economic_Resilience_Index": 2.07,
+            "Digital_Adoption_Score": 0.6,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 9.31,
+                    "PDRB_Triliun": 73.06
+                },
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 9.72,
+                    "PDRB_Triliun": 74.08
+                },
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 10.35,
+                    "PDRB_Triliun": 74.85
+                },
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 11.1,
+                    "PDRB_Triliun": 76.65
+                },
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 11.59,
+                    "PDRB_Triliun": 76.71
+                },
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 11.25,
+                    "PDRB_Triliun": 80.03
+                },
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 12.42,
+                    "PDRB_Triliun": 79.46
+                },
+                {
+                    "Provinsi": "Papua Barat",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 14.04,
+                    "PDRB_Triliun": 81.17
+                }
+            ]
+        },
+        {
+            "Provinsi": "Papua",
+            "PDRB_Triliun": 395.8,
+            "Tingkat_Kemiskinan_Persen": 17.82,
+            "Volume_QRIS_Juta": 162.3,
+            "Economic_Resilience_Index": 2.82,
+            "Digital_Adoption_Score": 10.2,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 131.47,
+                    "PDRB_Triliun": 366.48
+                },
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 142.78,
+                    "PDRB_Triliun": 372.22
+                },
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 150.07,
+                    "PDRB_Triliun": 378.99
+                },
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 146.06,
+                    "PDRB_Triliun": 384.15
+                },
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 158.93,
+                    "PDRB_Triliun": 394.84
+                },
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 180.55,
+                    "PDRB_Triliun": 386.88
+                },
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 194.89,
+                    "PDRB_Triliun": 391.21
+                },
+                {
+                    "Provinsi": "Papua",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 202.49,
+                    "PDRB_Triliun": 405.45
+                }
+            ]
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "PDRB_Triliun": 48.2,
+            "Tingkat_Kemiskinan_Persen": 29.45,
+            "Volume_QRIS_Juta": 4.8,
+            "Economic_Resilience_Index": 1.0,
+            "Digital_Adoption_Score": 0.2,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 3.86,
+                    "PDRB_Triliun": 44.63
+                },
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 4.1,
+                    "PDRB_Triliun": 45.08
+                },
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 4.22,
+                    "PDRB_Triliun": 46.0
+                },
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 4.73,
+                    "PDRB_Triliun": 46.43
+                },
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 4.9,
+                    "PDRB_Triliun": 46.82
+                },
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 4.83,
+                    "PDRB_Triliun": 47.25
+                },
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 5.13,
+                    "PDRB_Triliun": 49.76
+                },
+                {
+                    "Provinsi": "Papua Tengah",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 5.19,
+                    "PDRB_Triliun": 49.73
+                }
+            ]
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "PDRB_Triliun": 32.5,
+            "Tingkat_Kemiskinan_Persen": 27.21,
+            "Volume_QRIS_Juta": 2.1,
+            "Economic_Resilience_Index": 1.22,
+            "Digital_Adoption_Score": 0.0,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 1.7,
+                    "PDRB_Triliun": 30.09
+                },
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 1.8,
+                    "PDRB_Triliun": 30.52
+                },
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 1.84,
+                    "PDRB_Triliun": 31.0
+                },
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 1.97,
+                    "PDRB_Triliun": 31.67
+                },
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 1.99,
+                    "PDRB_Triliun": 31.54
+                },
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 2.0,
+                    "PDRB_Triliun": 32.31
+                },
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 2.26,
+                    "PDRB_Triliun": 33.3
+                },
+                {
+                    "Provinsi": "Papua Pegunungan",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 2.32,
+                    "PDRB_Triliun": 33.13
+                }
+            ]
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "PDRB_Triliun": 52.8,
+            "Tingkat_Kemiskinan_Persen": 19.26,
+            "Volume_QRIS_Juta": 6.5,
+            "Economic_Resilience_Index": 2.07,
+            "Digital_Adoption_Score": 0.3,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 5.25,
+                    "PDRB_Triliun": 48.89
+                },
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 5.52,
+                    "PDRB_Triliun": 49.84
+                },
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 5.7,
+                    "PDRB_Triliun": 50.5
+                },
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 5.94,
+                    "PDRB_Triliun": 50.58
+                },
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 6.65,
+                    "PDRB_Triliun": 50.9
+                },
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 6.26,
+                    "PDRB_Triliun": 52.98
+                },
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 6.13,
+                    "PDRB_Triliun": 54.17
+                },
+                {
+                    "Provinsi": "Papua Selatan",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 6.7,
+                    "PDRB_Triliun": 53.13
+                }
+            ]
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "PDRB_Triliun": 45.3,
+            "Tingkat_Kemiskinan_Persen": 17.5,
+            "Volume_QRIS_Juta": 5.2,
+            "Economic_Resilience_Index": 2.25,
+            "Digital_Adoption_Score": 0.2,
+            "Cluster": 1,
+            "Status": "Rentan",
+            "recommendation": {
+                "level": "critical",
+                "title": "Prioritas Tinggi - Rentan",
+                "text": "Tingkat adopsi digital rendah dan rentan guncangan ekonomi. Fokuskan APBD untuk subsidi internet UMKM, pelatihan literasi pembayaran digital dasar, dan insentif merchant QRIS di pasar tradisional.",
+                "actions": [
+                    "Subsidi koneksi internet untuk UMKM di daerah terpencil",
+                    "Program pelatihan literasi digital dan keuangan massal",
+                    "Kerja sama dengan BPD untuk edukasi QRIS",
+                    "Insentif pajak untuk merchant yang mengadopsi pembayaran digital"
+                ]
+            },
+            "trend": [
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q1 2024",
+                    "Volume_QRIS_Juta": 4.15,
+                    "PDRB_Triliun": 41.94
+                },
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q2 2024",
+                    "Volume_QRIS_Juta": 4.55,
+                    "PDRB_Triliun": 42.53
+                },
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q3 2024",
+                    "Volume_QRIS_Juta": 4.68,
+                    "PDRB_Triliun": 43.03
+                },
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q4 2024",
+                    "Volume_QRIS_Juta": 5.05,
+                    "PDRB_Triliun": 43.31
+                },
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q1 2025",
+                    "Volume_QRIS_Juta": 4.79,
+                    "PDRB_Triliun": 43.93
+                },
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q2 2025",
+                    "Volume_QRIS_Juta": 5.42,
+                    "PDRB_Triliun": 45.91
+                },
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q3 2025",
+                    "Volume_QRIS_Juta": 5.95,
+                    "PDRB_Triliun": 45.11
+                },
+                {
+                    "Provinsi": "Papua Barat Daya",
+                    "Quarter": "Q4 2025",
+                    "Volume_QRIS_Juta": 5.65,
+                    "PDRB_Triliun": 45.67
+                }
+            ]
+        }
+    ],
+    "trend_data": [
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 26.42,
+            "PDRB_Triliun": 180.94
+        },
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 27.15,
+            "PDRB_Triliun": 183.04
+        },
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 28.04,
+            "PDRB_Triliun": 186.74
+        },
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 30.55,
+            "PDRB_Triliun": 191.64
+        },
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 33.09,
+            "PDRB_Triliun": 189.5
+        },
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 30.83,
+            "PDRB_Triliun": 194.74
+        },
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 33.77,
+            "PDRB_Triliun": 198.44
+        },
+        {
+            "Provinsi": "Aceh",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 32.45,
+            "PDRB_Triliun": 198.25
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 202.77,
+            "PDRB_Triliun": 381.76
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 212.39,
+            "PDRB_Triliun": 385.75
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 222.05,
+            "PDRB_Triliun": 389.89
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 250.8,
+            "PDRB_Triliun": 402.47
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 233.53,
+            "PDRB_Triliun": 407.48
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 249.59,
+            "PDRB_Triliun": 410.3
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 241.92,
+            "PDRB_Triliun": 410.59
+        },
+        {
+            "Provinsi": "Sumatera Utara",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 287.56,
+            "PDRB_Triliun": 422.38
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 134.09,
+            "PDRB_Triliun": 303.84
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 147.53,
+            "PDRB_Triliun": 309.6
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 154.37,
+            "PDRB_Triliun": 310.46
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 149.55,
+            "PDRB_Triliun": 315.92
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 161.42,
+            "PDRB_Triliun": 326.07
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 167.1,
+            "PDRB_Triliun": 327.28
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 167.63,
+            "PDRB_Triliun": 323.43
+        },
+        {
+            "Provinsi": "Sumatera Barat",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 212.71,
+            "PDRB_Triliun": 329.34
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 51.65,
+            "PDRB_Triliun": 262.69
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 54.95,
+            "PDRB_Triliun": 265.51
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 55.11,
+            "PDRB_Triliun": 272.47
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 60.02,
+            "PDRB_Triliun": 271.07
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 59.94,
+            "PDRB_Triliun": 280.86
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 67.58,
+            "PDRB_Triliun": 282.02
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 62.45,
+            "PDRB_Triliun": 290.44
+        },
+        {
+            "Provinsi": "Riau",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 72.29,
+            "PDRB_Triliun": 290.15
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 12.71,
+            "PDRB_Triliun": 104.86
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 12.95,
+            "PDRB_Triliun": 106.58
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 13.91,
+            "PDRB_Triliun": 108.86
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 14.32,
+            "PDRB_Triliun": 110.38
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 14.64,
+            "PDRB_Triliun": 110.27
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 15.39,
+            "PDRB_Triliun": 114.34
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 17.65,
+            "PDRB_Triliun": 116.21
+        },
+        {
+            "Provinsi": "Jambi",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 16.45,
+            "PDRB_Triliun": 116.16
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 48.91,
+            "PDRB_Triliun": 107.22
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 49.33,
+            "PDRB_Triliun": 108.75
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 55.67,
+            "PDRB_Triliun": 109.38
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 56.01,
+            "PDRB_Triliun": 111.15
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 54.76,
+            "PDRB_Triliun": 115.56
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 59.29,
+            "PDRB_Triliun": 116.35
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 62.97,
+            "PDRB_Triliun": 119.85
+        },
+        {
+            "Provinsi": "Sumatera Selatan",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 62.49,
+            "PDRB_Triliun": 116.99
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 28.57,
+            "PDRB_Triliun": 70.79
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 30.2,
+            "PDRB_Triliun": 71.69
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 33.2,
+            "PDRB_Triliun": 72.41
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 34.44,
+            "PDRB_Triliun": 73.42
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 36.82,
+            "PDRB_Triliun": 74.29
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 38.63,
+            "PDRB_Triliun": 76.56
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 39.93,
+            "PDRB_Triliun": 75.42
+        },
+        {
+            "Provinsi": "Bengkulu",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 43.53,
+            "PDRB_Triliun": 76.67
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 147.71,
+            "PDRB_Triliun": 352.96
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 151.79,
+            "PDRB_Triliun": 357.29
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 163.59,
+            "PDRB_Triliun": 364.9
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 171.53,
+            "PDRB_Triliun": 365.01
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 172.6,
+            "PDRB_Triliun": 380.14
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 200.11,
+            "PDRB_Triliun": 382.26
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 210.08,
+            "PDRB_Triliun": 385.36
+        },
+        {
+            "Provinsi": "Lampung",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 188.15,
+            "PDRB_Triliun": 399.84
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 113.67,
+            "PDRB_Triliun": 258.47
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 119.45,
+            "PDRB_Triliun": 263.38
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 131.14,
+            "PDRB_Triliun": 266.96
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 123.14,
+            "PDRB_Triliun": 273.19
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 138.13,
+            "PDRB_Triliun": 269.86
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 146.54,
+            "PDRB_Triliun": 273.47
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 152.9,
+            "PDRB_Triliun": 284.09
+        },
+        {
+            "Provinsi": "Kep. Bangka Belitung",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 146.64,
+            "PDRB_Triliun": 280.86
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 42.67,
+            "PDRB_Triliun": 296.76
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 45.59,
+            "PDRB_Triliun": 301.41
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 44.97,
+            "PDRB_Triliun": 304.27
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 48.41,
+            "PDRB_Triliun": 309.16
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 55.09,
+            "PDRB_Triliun": 318.06
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 54.04,
+            "PDRB_Triliun": 318.91
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 52.72,
+            "PDRB_Triliun": 319.56
+        },
+        {
+            "Provinsi": "Kep. Riau",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 51.74,
+            "PDRB_Triliun": 321.21
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 1297.33,
+            "PDRB_Triliun": 3611.11
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 1311.31,
+            "PDRB_Triliun": 3680.74
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 1428.99,
+            "PDRB_Triliun": 3752.93
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 1541.43,
+            "PDRB_Triliun": 3761.16
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 1634.67,
+            "PDRB_Triliun": 3780.04
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 1664.92,
+            "PDRB_Triliun": 3917.34
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 1700.93,
+            "PDRB_Triliun": 3961.03
+        },
+        {
+            "Provinsi": "DKI Jakarta",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 1964.96,
+            "PDRB_Triliun": 3994.91
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 960.78,
+            "PDRB_Triliun": 2638.89
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 1008.24,
+            "PDRB_Triliun": 2673.03
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 1097.53,
+            "PDRB_Triliun": 2737.43
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 1168.05,
+            "PDRB_Triliun": 2757.76
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 1223.45,
+            "PDRB_Triliun": 2818.54
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 1298.52,
+            "PDRB_Triliun": 2815.43
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 1214.67,
+            "PDRB_Triliun": 2888.78
+        },
+        {
+            "Provinsi": "Jawa Barat",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 1162.11,
+            "PDRB_Triliun": 2923.85
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 760.82,
+            "PDRB_Triliun": 1750.0
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 792.0,
+            "PDRB_Triliun": 1773.8
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 813.85,
+            "PDRB_Triliun": 1811.95
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 854.56,
+            "PDRB_Triliun": 1806.98
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 857.82,
+            "PDRB_Triliun": 1857.84
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 999.43,
+            "PDRB_Triliun": 1922.89
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 1006.56,
+            "PDRB_Triliun": 1938.49
+        },
+        {
+            "Provinsi": "Jawa Tengah",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 987.27,
+            "PDRB_Triliun": 1882.11
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 48.13,
+            "PDRB_Triliun": 124.81
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 50.15,
+            "PDRB_Triliun": 126.28
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 50.36,
+            "PDRB_Triliun": 128.68
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 56.88,
+            "PDRB_Triliun": 129.61
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 62.4,
+            "PDRB_Triliun": 132.58
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 61.42,
+            "PDRB_Triliun": 132.6
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 61.3,
+            "PDRB_Triliun": 132.41
+        },
+        {
+            "Provinsi": "DI Yogyakarta",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 58.24,
+            "PDRB_Triliun": 133.91
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 853.67,
+            "PDRB_Triliun": 2916.67
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 876.04,
+            "PDRB_Triliun": 2959.64
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 910.01,
+            "PDRB_Triliun": 2998.25
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 1005.78,
+            "PDRB_Triliun": 3008.13
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 1016.09,
+            "PDRB_Triliun": 3092.03
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 1160.48,
+            "PDRB_Triliun": 3086.26
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 1021.94,
+            "PDRB_Triliun": 3096.31
+        },
+        {
+            "Provinsi": "Jawa Timur",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 1213.11,
+            "PDRB_Triliun": 3238.33
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 17.68,
+            "PDRB_Triliun": 119.07
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 18.9,
+            "PDRB_Triliun": 120.72
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 20.61,
+            "PDRB_Triliun": 121.92
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 19.07,
+            "PDRB_Triliun": 122.71
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 20.15,
+            "PDRB_Triliun": 124.18
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 21.86,
+            "PDRB_Triliun": 125.17
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 24.89,
+            "PDRB_Triliun": 127.06
+        },
+        {
+            "Provinsi": "Banten",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 25.65,
+            "PDRB_Triliun": 134.72
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 39.75,
+            "PDRB_Triliun": 159.54
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 41.19,
+            "PDRB_Triliun": 162.42
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 45.38,
+            "PDRB_Triliun": 163.91
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 47.13,
+            "PDRB_Triliun": 168.78
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 50.62,
+            "PDRB_Triliun": 170.71
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 51.95,
+            "PDRB_Triliun": 174.71
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 52.81,
+            "PDRB_Triliun": 172.17
+        },
+        {
+            "Provinsi": "Bali",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 59.66,
+            "PDRB_Triliun": 170.83
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 57.35,
+            "PDRB_Triliun": 233.7
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 63.88,
+            "PDRB_Triliun": 237.38
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 65.37,
+            "PDRB_Triliun": 239.75
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 66.83,
+            "PDRB_Triliun": 245.99
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 75.21,
+            "PDRB_Triliun": 243.9
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 73.23,
+            "PDRB_Triliun": 251.81
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 77.43,
+            "PDRB_Triliun": 252.65
+        },
+        {
+            "Provinsi": "Nusa Tenggara Barat",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 72.11,
+            "PDRB_Triliun": 262.52
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 83.64,
+            "PDRB_Triliun": 202.31
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 89.08,
+            "PDRB_Triliun": 206.0
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 94.68,
+            "PDRB_Triliun": 206.7
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 104.8,
+            "PDRB_Triliun": 210.63
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 110.54,
+            "PDRB_Triliun": 218.39
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 113.34,
+            "PDRB_Triliun": 213.28
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 120.32,
+            "PDRB_Triliun": 219.6
+        },
+        {
+            "Provinsi": "Nusa Tenggara Timur",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 128.49,
+            "PDRB_Triliun": 223.45
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 58.39,
+            "PDRB_Triliun": 152.96
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 59.67,
+            "PDRB_Triliun": 155.49
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 66.53,
+            "PDRB_Triliun": 158.97
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 66.52,
+            "PDRB_Triliun": 161.54
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 69.18,
+            "PDRB_Triliun": 159.16
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 80.35,
+            "PDRB_Triliun": 167.43
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 79.4,
+            "PDRB_Triliun": 162.82
+        },
+        {
+            "Provinsi": "Kalimantan Barat",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 83.18,
+            "PDRB_Triliun": 169.27
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 128.66,
+            "PDRB_Triliun": 264.44
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 135.93,
+            "PDRB_Triliun": 269.47
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 134.78,
+            "PDRB_Triliun": 274.76
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 155.97,
+            "PDRB_Triliun": 277.3
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 148.47,
+            "PDRB_Triliun": 279.93
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 158.52,
+            "PDRB_Triliun": 278.69
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 190.44,
+            "PDRB_Triliun": 291.39
+        },
+        {
+            "Provinsi": "Kalimantan Tengah",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 177.45,
+            "PDRB_Triliun": 298.02
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 31.19,
+            "PDRB_Triliun": 100.42
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 34.43,
+            "PDRB_Triliun": 102.15
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 35.35,
+            "PDRB_Triliun": 104.3
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 37.99,
+            "PDRB_Triliun": 103.51
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 38.18,
+            "PDRB_Triliun": 108.4
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 37.66,
+            "PDRB_Triliun": 107.35
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 46.93,
+            "PDRB_Triliun": 111.49
+        },
+        {
+            "Provinsi": "Kalimantan Selatan",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 43.33,
+            "PDRB_Triliun": 109.37
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 25.69,
+            "PDRB_Triliun": 156.39
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 27.85,
+            "PDRB_Triliun": 158.82
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 29.24,
+            "PDRB_Triliun": 162.17
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 28.49,
+            "PDRB_Triliun": 161.69
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 33.3,
+            "PDRB_Triliun": 164.07
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 33.49,
+            "PDRB_Triliun": 167.01
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 30.92,
+            "PDRB_Triliun": 170.65
+        },
+        {
+            "Provinsi": "Kalimantan Timur",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 37.51,
+            "PDRB_Triliun": 176.67
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 73.4,
+            "PDRB_Triliun": 178.24
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 75.83,
+            "PDRB_Triliun": 180.07
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 83.5,
+            "PDRB_Triliun": 184.32
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 81.09,
+            "PDRB_Triliun": 183.67
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 87.41,
+            "PDRB_Triliun": 188.17
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 93.4,
+            "PDRB_Triliun": 190.26
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 98.53,
+            "PDRB_Triliun": 193.18
+        },
+        {
+            "Provinsi": "Kalimantan Utara",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 105.61,
+            "PDRB_Triliun": 202.56
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 92.27,
+            "PDRB_Triliun": 209.63
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 94.47,
+            "PDRB_Triliun": 213.78
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 100.02,
+            "PDRB_Triliun": 216.48
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 100.62,
+            "PDRB_Triliun": 216.73
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 102.67,
+            "PDRB_Triliun": 219.18
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 117.72,
+            "PDRB_Triliun": 223.73
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 131.37,
+            "PDRB_Triliun": 230.6
+        },
+        {
+            "Provinsi": "Sulawesi Utara",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 114.13,
+            "PDRB_Triliun": 224.9
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 111.74,
+            "PDRB_Triliun": 322.87
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 114.91,
+            "PDRB_Triliun": 327.59
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 121.22,
+            "PDRB_Triliun": 332.58
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 132.49,
+            "PDRB_Triliun": 340.3
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 138.54,
+            "PDRB_Triliun": 347.07
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 153.63,
+            "PDRB_Triliun": 343.48
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 161.42,
+            "PDRB_Triliun": 345.82
+        },
+        {
+            "Provinsi": "Sulawesi Tengah",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 144.09,
+            "PDRB_Triliun": 356.42
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 53.27,
+            "PDRB_Triliun": 122.78
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 56.16,
+            "PDRB_Triliun": 124.32
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 61.43,
+            "PDRB_Triliun": 126.49
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 61.8,
+            "PDRB_Triliun": 128.11
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 65.13,
+            "PDRB_Triliun": 129.01
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 65.6,
+            "PDRB_Triliun": 130.89
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 66.21,
+            "PDRB_Triliun": 131.03
+        },
+        {
+            "Provinsi": "Sulawesi Selatan",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 81.68,
+            "PDRB_Triliun": 137.21
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 73.79,
+            "PDRB_Triliun": 230.74
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 78.24,
+            "PDRB_Triliun": 234.77
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 80.3,
+            "PDRB_Triliun": 236.67
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 84.88,
+            "PDRB_Triliun": 241.61
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 89.34,
+            "PDRB_Triliun": 245.56
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 88.06,
+            "PDRB_Triliun": 244.04
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 91.52,
+            "PDRB_Triliun": 247.17
+        },
+        {
+            "Provinsi": "Sulawesi Tenggara",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 95.69,
+            "PDRB_Triliun": 261.38
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 84.92,
+            "PDRB_Triliun": 255.37
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 90.23,
+            "PDRB_Triliun": 258.94
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 99.39,
+            "PDRB_Triliun": 264.65
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 94.64,
+            "PDRB_Triliun": 268.15
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 110.98,
+            "PDRB_Triliun": 271.42
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 104.42,
+            "PDRB_Triliun": 270.53
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 108.09,
+            "PDRB_Triliun": 278.47
+        },
+        {
+            "Provinsi": "Gorontalo",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 108.55,
+            "PDRB_Triliun": 284.16
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 19.9,
+            "PDRB_Triliun": 67.04
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 20.94,
+            "PDRB_Triliun": 67.74
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 21.41,
+            "PDRB_Triliun": 68.46
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 24.43,
+            "PDRB_Triliun": 70.68
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 23.37,
+            "PDRB_Triliun": 71.76
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 25.75,
+            "PDRB_Triliun": 71.77
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 25.83,
+            "PDRB_Triliun": 74.4
+        },
+        {
+            "Provinsi": "Sulawesi Barat",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 30.41,
+            "PDRB_Triliun": 75.16
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 30.97,
+            "PDRB_Triliun": 261.39
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 33.57,
+            "PDRB_Triliun": 266.2
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 34.06,
+            "PDRB_Triliun": 267.67
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 34.54,
+            "PDRB_Triliun": 275.62
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 39.34,
+            "PDRB_Triliun": 275.6
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 42.82,
+            "PDRB_Triliun": 285.13
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 41.0,
+            "PDRB_Triliun": 284.33
+        },
+        {
+            "Provinsi": "Maluku",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 41.58,
+            "PDRB_Triliun": 288.88
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 17.86,
+            "PDRB_Triliun": 110.65
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 18.87,
+            "PDRB_Triliun": 112.45
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 19.15,
+            "PDRB_Triliun": 114.25
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 19.79,
+            "PDRB_Triliun": 116.6
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 21.89,
+            "PDRB_Triliun": 119.03
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 23.44,
+            "PDRB_Triliun": 117.91
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 22.23,
+            "PDRB_Triliun": 117.51
+        },
+        {
+            "Provinsi": "Maluku Utara",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 24.96,
+            "PDRB_Triliun": 125.18
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 9.31,
+            "PDRB_Triliun": 73.06
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 9.72,
+            "PDRB_Triliun": 74.08
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 10.35,
+            "PDRB_Triliun": 74.85
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 11.1,
+            "PDRB_Triliun": 76.65
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 11.59,
+            "PDRB_Triliun": 76.71
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 11.25,
+            "PDRB_Triliun": 80.03
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 12.42,
+            "PDRB_Triliun": 79.46
+        },
+        {
+            "Provinsi": "Papua Barat",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 14.04,
+            "PDRB_Triliun": 81.17
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 131.47,
+            "PDRB_Triliun": 366.48
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 142.78,
+            "PDRB_Triliun": 372.22
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 150.07,
+            "PDRB_Triliun": 378.99
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 146.06,
+            "PDRB_Triliun": 384.15
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 158.93,
+            "PDRB_Triliun": 394.84
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 180.55,
+            "PDRB_Triliun": 386.88
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 194.89,
+            "PDRB_Triliun": 391.21
+        },
+        {
+            "Provinsi": "Papua",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 202.49,
+            "PDRB_Triliun": 405.45
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 3.86,
+            "PDRB_Triliun": 44.63
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 4.1,
+            "PDRB_Triliun": 45.08
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 4.22,
+            "PDRB_Triliun": 46.0
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 4.73,
+            "PDRB_Triliun": 46.43
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 4.9,
+            "PDRB_Triliun": 46.82
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 4.83,
+            "PDRB_Triliun": 47.25
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 5.13,
+            "PDRB_Triliun": 49.76
+        },
+        {
+            "Provinsi": "Papua Tengah",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 5.19,
+            "PDRB_Triliun": 49.73
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 1.7,
+            "PDRB_Triliun": 30.09
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 1.8,
+            "PDRB_Triliun": 30.52
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 1.84,
+            "PDRB_Triliun": 31.0
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 1.97,
+            "PDRB_Triliun": 31.67
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 1.99,
+            "PDRB_Triliun": 31.54
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 2.0,
+            "PDRB_Triliun": 32.31
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 2.26,
+            "PDRB_Triliun": 33.3
+        },
+        {
+            "Provinsi": "Papua Pegunungan",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 2.32,
+            "PDRB_Triliun": 33.13
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 5.25,
+            "PDRB_Triliun": 48.89
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 5.52,
+            "PDRB_Triliun": 49.84
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 5.7,
+            "PDRB_Triliun": 50.5
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 5.94,
+            "PDRB_Triliun": 50.58
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 6.65,
+            "PDRB_Triliun": 50.9
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 6.26,
+            "PDRB_Triliun": 52.98
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 6.13,
+            "PDRB_Triliun": 54.17
+        },
+        {
+            "Provinsi": "Papua Selatan",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 6.7,
+            "PDRB_Triliun": 53.13
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q1 2024",
+            "Volume_QRIS_Juta": 4.15,
+            "PDRB_Triliun": 41.94
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q2 2024",
+            "Volume_QRIS_Juta": 4.55,
+            "PDRB_Triliun": 42.53
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q3 2024",
+            "Volume_QRIS_Juta": 4.68,
+            "PDRB_Triliun": 43.03
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q4 2024",
+            "Volume_QRIS_Juta": 5.05,
+            "PDRB_Triliun": 43.31
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q1 2025",
+            "Volume_QRIS_Juta": 4.79,
+            "PDRB_Triliun": 43.93
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q2 2025",
+            "Volume_QRIS_Juta": 5.42,
+            "PDRB_Triliun": 45.91
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q3 2025",
+            "Volume_QRIS_Juta": 5.95,
+            "PDRB_Triliun": 45.11
+        },
+        {
+            "Provinsi": "Papua Barat Daya",
+            "Quarter": "Q4 2025",
+            "Volume_QRIS_Juta": 5.65,
+            "PDRB_Triliun": 45.67
+        }
+    ]
+}

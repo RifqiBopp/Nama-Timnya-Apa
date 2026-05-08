@@ -262,16 +262,23 @@ function renderPDRBTrend(trendData, provinces) {
 
 // --- PROVINCE DETAIL ---
 async function loadProvinceDetail(name) {
-    const res = await fetch(`/api/province/${encodeURIComponent(name)}`);
-    const d = await res.json();
-    if (d.error) return;
+    // If we're in static mode, the data is already in the global provincesData
+    let d = provincesData.find(p => p.Provinsi === name);
+    
+    // Fallback to API if not found (for Flask mode)
+    if (!d) {
+        const res = await fetch(`/api/province/${encodeURIComponent(name)}`);
+        d = await res.json();
+    }
+    
+    if (!d || d.error) return;
 
     document.getElementById('detail-name').textContent = d.Provinsi;
     document.getElementById('detail-score').innerHTML = d.Economic_Resilience_Index + '<span>/10</span>';
     document.getElementById('detail-pdrb').textContent = 'Rp ' + d.PDRB_Triliun + ' T';
     document.getElementById('detail-qris').textContent = d.Volume_QRIS_Juta + ' Juta';
     document.getElementById('detail-poverty').textContent = d.Tingkat_Kemiskinan_Persen + '%';
-    document.getElementById('detail-digital').textContent = d.Digital_Adoption_Score + '/100';
+    document.getElementById('detail-digital').textContent = (d.Digital_Adoption_Score || 0) + '/100';
 
     const badgeEl = document.getElementById('detail-badge');
     const cls = d.Status === 'Tangguh' ? 'badge-tangguh' : d.Status === 'Transisi' ? 'badge-transisi' : 'badge-rentan';
@@ -280,13 +287,15 @@ async function loadProvinceDetail(name) {
 
     // Recommendation
     const rec = d.recommendation;
-    const recEl = document.getElementById('detail-recommendation');
-    recEl.className = 'recommendation ' + rec.level;
-    recEl.innerHTML = `
-        <h4>${rec.title}</h4>
-        <p>${rec.text}</p>
-        <ul>${rec.actions.map(a => `<li><span style="color:var(--azure-light)">&#10003;</span> ${a}</li>`).join('')}</ul>
-    `;
+    if (rec) {
+        const recEl = document.getElementById('detail-recommendation');
+        recEl.className = 'recommendation ' + rec.level;
+        recEl.innerHTML = `
+            <h4>${rec.title}</h4>
+            <p>${rec.text}</p>
+            <ul>${rec.actions.map(a => `<li><span style="color:var(--azure-light)">&#10003;</span> ${a}</li>`).join('')}</ul>
+        `;
+    }
 
     // Radar
     if (d.PDRB_Triliun && d.Volume_QRIS_Juta) {
