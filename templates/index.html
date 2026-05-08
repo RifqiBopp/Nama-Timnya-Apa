@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="dicoding:email" content="apriansyahrifqii@gmail.com"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Economic Resilience Intelligence | QRIS Analytics Platform</title>
+    <meta name="description" content="Platform analitik ketahanan ekonomi daerah berbasis data transaksi QRIS. Decision support system untuk mengukur dan memvisualisasikan ketahanan ekonomi secara real-time."/>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<nav class="navbar" id="main-navbar">
+    <div class="navbar-brand">
+        <div class="logo-icon">ERI</div>
+        <span>Resilience Intelligence</span>
+        <div class="brand-divider"></div>
+        <span class="brand-subtitle">Decision Support System</span>
+    </div>
+    <div class="navbar-tabs">
+        <button class="tab-btn active" data-tab="tab-dashboard" onclick="switchTab('tab-dashboard')">
+            <span class="material-symbols-outlined" style="font-size:15px">space_dashboard</span>Dashboard
+        </button>
+        <button class="tab-btn" data-tab="tab-clusters" onclick="switchTab('tab-clusters')">
+            <span class="material-symbols-outlined" style="font-size:15px">hub</span>Clustering
+        </button>
+        <button class="tab-btn" data-tab="tab-trends" onclick="switchTab('tab-trends')">
+            <span class="material-symbols-outlined" style="font-size:15px">trending_up</span>Trend Analysis
+        </button>
+        <button class="tab-btn" data-tab="tab-detail" onclick="switchTab('tab-detail')">
+            <span class="material-symbols-outlined" style="font-size:15px">policy</span>Detail & Rekomendasi
+        </button>
+    </div>
+    <div class="navbar-badge">
+        <div class="pulse-dot"></div>
+        Real-time 2025
+    </div>
+</nav>
+
+<!-- ============ MOBILE TABS ============ -->
+<div class="mobile-tabs">
+    <button class="mob-btn active" data-tab="tab-dashboard" onclick="switchTab('tab-dashboard')">
+        <span class="material-symbols-outlined">space_dashboard</span>Dashboard
+    </button>
+    <button class="mob-btn" data-tab="tab-clusters" onclick="switchTab('tab-clusters')">
+        <span class="material-symbols-outlined">hub</span>Cluster
+    </button>
+    <button class="mob-btn" data-tab="tab-trends" onclick="switchTab('tab-trends')">
+        <span class="material-symbols-outlined">trending_up</span>Trend
+    </button>
+    <button class="mob-btn" data-tab="tab-detail" onclick="switchTab('tab-detail')">
+        <span class="material-symbols-outlined">policy</span>Detail
+    </button>
+</div>
+
+<!-- ============================================================ -->
+<!-- TAB 1: DASHBOARD                                             -->
+<!-- ============================================================ -->
+<div class="tab-content active" id="tab-dashboard">
+
+    <!-- PAGE HEADER -->
+    <div class="page-header">
+        <div>
+            <h1>Economic Resilience Dashboard</h1>
+            <p class="subtitle">Monitoring ketahanan ekonomi daerah berbasis data transaksi QRIS dan indikator BPS</p>
+        </div>
+        <div class="navbar-badge" style="font-size:9px">
+            <span class="material-symbols-outlined" style="font-size:13px">database</span>
+            {{ stats.total_provinces }} Provinsi
+        </div>
+    </div>
+
+    <!-- KPI CARDS -->
+    <div class="kpi-grid">
+        <div class="kpi-card">
+            <div class="kpi-icon" style="background:var(--azure-blue-dim);color:var(--azure-light)">
+                <span class="material-symbols-outlined">assessment</span>
+            </div>
+            <div class="kpi-label">Rata-rata Indeks Ketahanan</div>
+            <div class="kpi-value"><span data-count="{{ stats.avg_resilience }}" data-decimals="2">0</span><span style="font-size:14px;color:var(--text-muted)">/10</span></div>
+            <div class="kpi-sub" style="color:var(--accent-emerald)">
+                <span class="material-symbols-outlined" style="font-size:13px">trending_up</span>
+                Dari {{ stats.total_provinces }} Provinsi
+            </div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon" style="background:var(--accent-emerald-dim);color:var(--accent-emerald)">
+                <span class="material-symbols-outlined">verified</span>
+            </div>
+            <div class="kpi-label">Provinsi Paling Tangguh</div>
+            <div class="kpi-value" style="font-size:18px;line-height:1.3">{{ stats.top_resilient }}</div>
+            <div class="kpi-sub">Skor: <strong style="color:var(--accent-emerald);margin-left:4px">{{ stats.top_resilient_score }}</strong></div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon" style="background:var(--accent-purple-dim);color:var(--accent-purple)">
+                <span class="material-symbols-outlined">qr_code_2</span>
+            </div>
+            <div class="kpi-label">Total Volume QRIS</div>
+            <div class="kpi-value"><span data-count="{{ stats.total_qris }}" data-decimals="0">0</span><span style="font-size:12px;color:var(--text-muted)"> Juta</span></div>
+            <div class="kpi-sub">Transaksi Digital Nasional</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon" style="background:var(--accent-amber-dim);color:var(--accent-amber)">
+                <span class="material-symbols-outlined">speed</span>
+            </div>
+            <div class="kpi-label">Rata-rata Adopsi Digital</div>
+            <div class="kpi-value"><span data-count="{{ stats.avg_digital_adoption }}" data-decimals="1">0</span><span style="font-size:12px;color:var(--text-muted)">/100</span></div>
+            <div class="kpi-sub">Skor Adopsi QRIS</div>
+        </div>
+    </div>
+
+    <!-- MAP + TOP 5 -->
+    <div class="grid-7-3" style="margin-bottom:12px">
+        <div class="card">
+            <div class="card-header">
+                <h3><span class="material-symbols-outlined">public</span>Peta Ketahanan Ekonomi Indonesia</h3>
+                <span class="badge badge-tangguh" style="font-size:9px">INTERAKTIF</span>
+            </div>
+            <div class="card-body" style="padding:0;height:400px">
+                <div id="chart-map" style="width:100%;height:100%"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h3><span class="material-symbols-outlined">emoji_events</span>Top 5 Provinsi</h3>
+            </div>
+            <ul class="province-list" id="top5-list"></ul>
+        </div>
+    </div>
+
+    <!-- BAR CHART -->
+    <div class="card">
+        <div class="card-header">
+            <h3><span class="material-symbols-outlined">bar_chart</span>Ranking Indeks Ketahanan Ekonomi — Top 12</h3>
+        </div>
+        <div class="card-body" style="height:340px;padding:14px">
+            <div id="chart-bar" style="width:100%;height:100%"></div>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- TAB 2: CLUSTERING                                            -->
+<!-- ============================================================ -->
+<div class="tab-content" id="tab-clusters">
+
+    <div class="page-header">
+        <div>
+            <h1>Clustering Analysis</h1>
+            <p class="subtitle">Pengelompokan K-Means berdasarkan PDRB dan tingkat adopsi digital QRIS</p>
+        </div>
+    </div>
+
+    <!-- CLUSTER INSIGHT CARDS -->
+    <div class="cluster-insights">
+        <div class="cluster-insight" style="background:var(--accent-emerald-dim);border-color:rgba(0,196,140,0.15)">
+            <div class="ci-count" style="color:var(--accent-emerald)">{{ stats.cluster_counts.tangguh }}</div>
+            <div class="ci-label" style="color:var(--accent-emerald)">Tangguh</div>
+            <div class="ci-desc">High Digital — Strong Economy</div>
+        </div>
+        <div class="cluster-insight" style="background:var(--accent-amber-dim);border-color:rgba(230,168,23,0.15)">
+            <div class="ci-count" style="color:var(--accent-amber)">{{ stats.cluster_counts.transisi }}</div>
+            <div class="ci-label" style="color:var(--accent-amber)">Transisi</div>
+            <div class="ci-desc">Moderate Digital — Moderate Economy</div>
+        </div>
+        <div class="cluster-insight" style="background:var(--accent-red-dim);border-color:rgba(227,72,86,0.15)">
+            <div class="ci-count" style="color:var(--accent-red)">{{ stats.cluster_counts.rentan }}</div>
+            <div class="ci-label" style="color:var(--accent-red)">Rentan</div>
+            <div class="ci-desc">Low Digital — Weak Economy</div>
+        </div>
+    </div>
+
+    <!-- SCATTER + INSIGHT -->
+    <div class="grid-7-3" style="margin-bottom:12px">
+        <div class="card">
+            <div class="card-header">
+                <h3><span class="material-symbols-outlined">bubble_chart</span>PDRB vs Adopsi QRIS</h3>
+                <div style="display:flex;gap:10px">
+                    <div style="display:flex;align-items:center;gap:4px"><span style="width:7px;height:7px;border-radius:50%;background:var(--accent-emerald)"></span><span style="font-size:9px;color:var(--text-muted)">TANGGUH</span></div>
+                    <div style="display:flex;align-items:center;gap:4px"><span style="width:7px;height:7px;border-radius:50%;background:var(--accent-amber)"></span><span style="font-size:9px;color:var(--text-muted)">TRANSISI</span></div>
+                    <div style="display:flex;align-items:center;gap:4px"><span style="width:7px;height:7px;border-radius:50%;background:var(--accent-red)"></span><span style="font-size:9px;color:var(--text-muted)">RENTAN</span></div>
+                </div>
+            </div>
+            <div class="card-body" style="height:440px;padding:12px">
+                <div id="chart-scatter" style="width:100%;height:100%"></div>
+            </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:12px">
+            <div class="card" style="flex:1">
+                <div class="card-body" style="height:100%;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(135deg,var(--azure-blue-dim),rgba(0,151,167,0.04))">
+                    <span class="material-symbols-outlined" style="font-size:32px;color:var(--azure-light);margin-bottom:10px">psychology</span>
+                    <h4 style="font-size:14px;font-weight:700;margin-bottom:8px">Wawasan Klaster</h4>
+                    <p style="font-size:11px;color:var(--text-secondary);line-height:1.7">Model K-Means mengidentifikasi tiga profil ekonomi berbeda di Indonesia, menunjukkan korelasi kuat antara literasi digital dengan ketahanan finansial daerah.</p>
+                    <div class="method-box" style="margin-top:14px">
+                        <p style="font-style:italic">"Wilayah tangguh menunjukkan adopsi QRIS 3x lipat lebih tinggi dibanding wilayah rentan."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- DATA TABLE -->
+    <div class="card">
+        <div class="card-header">
+            <h3><span class="material-symbols-outlined">table_chart</span>Detail Semua Provinsi</h3>
+            <span style="font-size:10px;color:var(--text-muted)">Klik header untuk mengurutkan</span>
+        </div>
+        <div style="overflow-x:auto">
+            <table class="data-table" id="clusterTable">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0,false)">Provinsi</th>
+                        <th onclick="sortTable(1,false)">Status</th>
+                        <th onclick="sortTable(2,true)">Skor Ketahanan</th>
+                        <th onclick="sortTable(3,true)">PDRB (T)</th>
+                        <th onclick="sortTable(4,true)">QRIS (Juta)</th>
+                        <th onclick="sortTable(5,true)">Kemiskinan (%)</th>
+                        <th onclick="sortTable(6,true)">Adopsi Digital</th>
+                    </tr>
+                </thead>
+                <tbody id="table-body"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- TAB 3: TREND ANALYSIS                                        -->
+<!-- ============================================================ -->
+<div class="tab-content" id="tab-trends">
+
+    <div class="page-header">
+        <div>
+            <h1>Trend Analysis</h1>
+            <p class="subtitle">Perkembangan transaksi QRIS dan PDRB secara quarterly (2024–2025)</p>
+        </div>
+    </div>
+
+    <!-- TREND KPIs -->
+    <div class="trend-stats">
+        <div class="kpi-card">
+            <div class="kpi-icon" style="background:var(--accent-emerald-dim);color:var(--accent-emerald)">
+                <span class="material-symbols-outlined">trending_up</span>
+            </div>
+            <div class="kpi-label">Pertumbuhan QRIS</div>
+            <div class="kpi-value" style="color:var(--accent-emerald)" id="trend-qris-growth">—</div>
+            <div class="kpi-sub">YoY (Q4 2024 vs Q4 2025)</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon" style="background:var(--azure-blue-dim);color:var(--azure-light)">
+                <span class="material-symbols-outlined">account_balance</span>
+            </div>
+            <div class="kpi-label">Pertumbuhan PDRB</div>
+            <div class="kpi-value" style="color:var(--azure-light)" id="trend-pdrb-growth">—</div>
+            <div class="kpi-sub">Rata-rata pertumbuhan nasional</div>
+        </div>
+        <div class="kpi-card">
+            <div class="kpi-icon" style="background:var(--accent-purple-dim);color:var(--accent-purple)">
+                <span class="material-symbols-outlined">date_range</span>
+            </div>
+            <div class="kpi-label">Periode Data</div>
+            <div class="kpi-value" style="font-size:20px">8 Quarter</div>
+            <div class="kpi-sub">Q1 2024 — Q4 2025</div>
+        </div>
+    </div>
+
+    <!-- TREND CHARTS -->
+    <div class="grid-2" style="margin-bottom:12px">
+        <div class="card">
+            <div class="card-header">
+                <h3><span class="material-symbols-outlined">qr_code_2</span>Tren Volume QRIS (Top 5)</h3>
+            </div>
+            <div class="card-body" style="height:360px;padding:12px">
+                <div id="chart-trend" style="width:100%;height:100%"></div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h3><span class="material-symbols-outlined">account_balance</span>Tren PDRB (Top 5)</h3>
+            </div>
+            <div class="card-body" style="height:360px;padding:12px">
+                <div id="chart-pdrb-trend" style="width:100%;height:100%"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INSIGHT -->
+    <div class="card">
+        <div class="card-body">
+            <div class="insight-box">
+                <div class="insight-icon">
+                    <span class="material-symbols-outlined">lightbulb</span>
+                </div>
+                <div>
+                    <h4>Insight Analitik</h4>
+                    <p>Data menunjukkan korelasi positif kuat antara pertumbuhan volume transaksi QRIS dengan peningkatan PDRB daerah. Provinsi dengan pertumbuhan adopsi digital di atas rata-rata nasional cenderung memiliki indeks ketahanan ekonomi yang lebih tinggi, mengkonfirmasi hipotesis bahwa pembayaran digital dapat menjadi leading indicator untuk aktivitas ekonomi riil.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- TAB 4: DETAIL PROVINSI & REKOMENDASI                         -->
+<!-- ============================================================ -->
+<div class="tab-content" id="tab-detail">
+
+    <div class="page-header">
+        <div>
+            <h1>Profil & Rekomendasi Kebijakan</h1>
+            <p class="subtitle">Pilih provinsi untuk melihat analisis mendalam dan rekomendasi kebijakan berbasis AI</p>
+        </div>
+    </div>
+
+    <!-- PROVINCE SELECTOR -->
+    <div style="max-width:380px;margin-bottom:20px">
+        <select class="custom-select" id="province-select" onchange="loadProvinceDetail(this.value)">
+            <option value="">— Pilih Provinsi —</option>
+        </select>
+    </div>
+
+    <!-- DETAIL PANEL -->
+    <div class="detail-panel" id="detail-panel" style="display:none">
+        <div class="detail-hero">
+            <div>
+                <h1 id="detail-name">—</h1>
+                <span class="badge badge-tangguh" id="detail-badge" style="margin-top:8px">—</span>
+            </div>
+            <div style="text-align:right">
+                <div style="font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);margin-bottom:4px">Economic Resilience Index</div>
+                <div class="big-score" id="detail-score">—<span>/10</span></div>
+            </div>
+        </div>
+
+        <div class="detail-metrics">
+            <div class="detail-metric">
+                <div class="label">PDRB (Triliun Rupiah)</div>
+                <div class="value" id="detail-pdrb">—</div>
+            </div>
+            <div class="detail-metric">
+                <div class="label">Volume QRIS (Juta)</div>
+                <div class="value" id="detail-qris">—</div>
+            </div>
+            <div class="detail-metric">
+                <div class="label">Tingkat Kemiskinan</div>
+                <div class="value" id="detail-poverty">—</div>
+            </div>
+        </div>
+
+        <div class="grid-2" style="margin-bottom:20px">
+            <div>
+                <div class="section-title" style="margin-bottom:8px">
+                    <span class="material-symbols-outlined title-icon">radar</span>Profil Multidimensi
+                </div>
+                <div class="card" style="height:300px">
+                    <div id="chart-radar" style="width:100%;height:100%"></div>
+                </div>
+            </div>
+            <div>
+                <div class="section-title" style="margin-bottom:8px">
+                    <span class="material-symbols-outlined title-icon">query_stats</span>Metrik Tambahan
+                </div>
+                <div class="card" style="height:300px;display:flex;flex-direction:column;justify-content:center">
+                    <div class="card-body">
+                        <div class="detail-metric" style="margin-bottom:14px">
+                            <div class="label">Skor Adopsi Digital</div>
+                            <div class="value" id="detail-digital">—</div>
+                        </div>
+                        <div class="method-box">
+                            <p><strong style="color:var(--text-secondary)">Metodologi:</strong> Indeks dihitung menggunakan weighted composite dari PDRB (35%), Volume QRIS (35%), dan Inverse Tingkat Kemiskinan (30%), kemudian dinormalisasi ke skala 1–10.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI RECOMMENDATION -->
+        <div class="section-title" style="margin-bottom:10px">
+            <span class="material-symbols-outlined title-icon" style="color:var(--accent-amber)">psychology</span>Rekomendasi Kebijakan AI
+        </div>
+        <div class="recommendation transition" id="detail-recommendation">
+            <h4>Pilih provinsi untuk melihat rekomendasi</h4>
+            <p>Rekomendasi kebijakan akan ditampilkan berdasarkan analisis klaster K-Means.</p>
+        </div>
+    </div>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer class="app-footer">
+    Economic Resilience Intelligence Platform &middot; QRIS-Based Analytics &middot; Microsoft Elevate Datathon 2026
+</footer>
+
+<!-- ============ SCRIPTS ============ -->
+<script src="/static/js/app.js"></script>
+<script>
+    // --- INIT DATA ---
+    const provincesData = {{ provinces_data | safe }};
+    const trendData = {{ trend_data | safe }};
+
+    document.addEventListener('DOMContentLoaded', function() {
+        // Animate counters
+        animateCounters();
+
+        // Render Dashboard charts
+        renderBarChart(provincesData);
+        renderMap(provincesData);
+
+        // Top 5 sidebar
+        const top5 = [...provincesData].sort((a, b) => b.Economic_Resilience_Index - a.Economic_Resilience_Index).slice(0, 5);
+        const listEl = document.getElementById('top5-list');
+        top5.forEach((p, i) => {
+            const li = document.createElement('li');
+            li.className = 'province-item';
+            li.onclick = () => { switchTab('tab-detail'); document.getElementById('province-select').value = p.Provinsi; loadProvinceDetail(p.Provinsi); };
+            li.innerHTML = `<span class="rank">${i+1}</span><span class="name">${p.Provinsi}</span><span class="score">${p.Economic_Resilience_Index}</span>`;
+            listEl.appendChild(li);
+        });
+
+        // Render Cluster scatter
+        renderScatter(provincesData);
+
+        // Build data table
+        const tbody = document.getElementById('table-body');
+        const sorted = [...provincesData].sort((a, b) => b.Economic_Resilience_Index - a.Economic_Resilience_Index);
+        sorted.forEach(p => {
+            const cls = p.Status === 'Tangguh' ? 'badge-tangguh' : p.Status === 'Transisi' ? 'badge-transisi' : 'badge-rentan';
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td style="font-weight:600">${p.Provinsi}</td>
+                <td><span class="badge ${cls}">${p.Status}</span></td>
+                <td style="font-weight:700">${p.Economic_Resilience_Index}</td>
+                <td>${p.PDRB_Triliun}</td>
+                <td>${p.Volume_QRIS_Juta}</td>
+                <td>${p.Tingkat_Kemiskinan_Persen}%</td>
+                <td>${p.Digital_Adoption_Score || '—'}</td>
+            `;
+            tr.style.cursor = 'pointer';
+            tr.onclick = () => { switchTab('tab-detail'); document.getElementById('province-select').value = p.Provinsi; loadProvinceDetail(p.Provinsi); };
+            tbody.appendChild(tr);
+        });
+
+        // Render Trends
+        if (trendData.length > 0) {
+            renderTrendChart(trendData, provincesData);
+            renderPDRBTrend(trendData, provincesData);
+
+            const q4_24 = trendData.filter(t => t.Quarter === 'Q4 2024');
+            const q4_25 = trendData.filter(t => t.Quarter === 'Q4 2025');
+            if (q4_24.length && q4_25.length) {
+                const totalQ4_24 = q4_24.reduce((s, t) => s + t.Volume_QRIS_Juta, 0);
+                const totalQ4_25 = q4_25.reduce((s, t) => s + t.Volume_QRIS_Juta, 0);
+                document.getElementById('trend-qris-growth').textContent = '+' + ((totalQ4_25 - totalQ4_24) / totalQ4_24 * 100).toFixed(1) + '%';
+
+                const pdrbQ4_24 = q4_24.reduce((s, t) => s + t.PDRB_Triliun, 0);
+                const pdrbQ4_25 = q4_25.reduce((s, t) => s + t.PDRB_Triliun, 0);
+                document.getElementById('trend-pdrb-growth').textContent = '+' + ((pdrbQ4_25 - pdrbQ4_24) / pdrbQ4_24 * 100).toFixed(1) + '%';
+            }
+        }
+
+        // Populate province select
+        const select = document.getElementById('province-select');
+        [...provincesData].sort((a, b) => a.Provinsi.localeCompare(b.Provinsi)).forEach(p => {
+            const opt = document.createElement('option');
+            opt.value = p.Provinsi;
+            opt.textContent = p.Provinsi;
+            select.appendChild(opt);
+        });
+    });
+
+    // Show detail panel on select
+    const _origLoad = loadProvinceDetail;
+    loadProvinceDetail = async function(name) {
+        if (!name) return;
+        document.getElementById('detail-panel').style.display = 'block';
+        await _origLoad(name);
+    };
+</script>
+
+</body>
+</html>

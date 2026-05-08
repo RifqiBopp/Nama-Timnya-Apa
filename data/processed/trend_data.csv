@@ -1,0 +1,305 @@
+Provinsi,Quarter,Volume_QRIS_Juta,PDRB_Triliun
+Aceh,Q1 2024,26.42,180.94
+Aceh,Q2 2024,27.15,183.04
+Aceh,Q3 2024,28.04,186.74
+Aceh,Q4 2024,30.55,191.64
+Aceh,Q1 2025,33.09,189.5
+Aceh,Q2 2025,30.83,194.74
+Aceh,Q3 2025,33.77,198.44
+Aceh,Q4 2025,32.45,198.25
+Sumatera Utara,Q1 2024,202.77,381.76
+Sumatera Utara,Q2 2024,212.39,385.75
+Sumatera Utara,Q3 2024,222.05,389.89
+Sumatera Utara,Q4 2024,250.8,402.47
+Sumatera Utara,Q1 2025,233.53,407.48
+Sumatera Utara,Q2 2025,249.59,410.3
+Sumatera Utara,Q3 2025,241.92,410.59
+Sumatera Utara,Q4 2025,287.56,422.38
+Sumatera Barat,Q1 2024,134.09,303.84
+Sumatera Barat,Q2 2024,147.53,309.6
+Sumatera Barat,Q3 2024,154.37,310.46
+Sumatera Barat,Q4 2024,149.55,315.92
+Sumatera Barat,Q1 2025,161.42,326.07
+Sumatera Barat,Q2 2025,167.1,327.28
+Sumatera Barat,Q3 2025,167.63,323.43
+Sumatera Barat,Q4 2025,212.71,329.34
+Riau,Q1 2024,51.65,262.69
+Riau,Q2 2024,54.95,265.51
+Riau,Q3 2024,55.11,272.47
+Riau,Q4 2024,60.02,271.07
+Riau,Q1 2025,59.94,280.86
+Riau,Q2 2025,67.58,282.02
+Riau,Q3 2025,62.45,290.44
+Riau,Q4 2025,72.29,290.15
+Jambi,Q1 2024,12.71,104.86
+Jambi,Q2 2024,12.95,106.58
+Jambi,Q3 2024,13.91,108.86
+Jambi,Q4 2024,14.32,110.38
+Jambi,Q1 2025,14.64,110.27
+Jambi,Q2 2025,15.39,114.34
+Jambi,Q3 2025,17.65,116.21
+Jambi,Q4 2025,16.45,116.16
+Sumatera Selatan,Q1 2024,48.91,107.22
+Sumatera Selatan,Q2 2024,49.33,108.75
+Sumatera Selatan,Q3 2024,55.67,109.38
+Sumatera Selatan,Q4 2024,56.01,111.15
+Sumatera Selatan,Q1 2025,54.76,115.56
+Sumatera Selatan,Q2 2025,59.29,116.35
+Sumatera Selatan,Q3 2025,62.97,119.85
+Sumatera Selatan,Q4 2025,62.49,116.99
+Bengkulu,Q1 2024,28.57,70.79
+Bengkulu,Q2 2024,30.2,71.69
+Bengkulu,Q3 2024,33.2,72.41
+Bengkulu,Q4 2024,34.44,73.42
+Bengkulu,Q1 2025,36.82,74.29
+Bengkulu,Q2 2025,38.63,76.56
+Bengkulu,Q3 2025,39.93,75.42
+Bengkulu,Q4 2025,43.53,76.67
+Lampung,Q1 2024,147.71,352.96
+Lampung,Q2 2024,151.79,357.29
+Lampung,Q3 2024,163.59,364.9
+Lampung,Q4 2024,171.53,365.01
+Lampung,Q1 2025,172.6,380.14
+Lampung,Q2 2025,200.11,382.26
+Lampung,Q3 2025,210.08,385.36
+Lampung,Q4 2025,188.15,399.84
+Kep. Bangka Belitung,Q1 2024,113.67,258.47
+Kep. Bangka Belitung,Q2 2024,119.45,263.38
+Kep. Bangka Belitung,Q3 2024,131.14,266.96
+Kep. Bangka Belitung,Q4 2024,123.14,273.19
+Kep. Bangka Belitung,Q1 2025,138.13,269.86
+Kep. Bangka Belitung,Q2 2025,146.54,273.47
+Kep. Bangka Belitung,Q3 2025,152.9,284.09
+Kep. Bangka Belitung,Q4 2025,146.64,280.86
+Kep. Riau,Q1 2024,42.67,296.76
+Kep. Riau,Q2 2024,45.59,301.41
+Kep. Riau,Q3 2024,44.97,304.27
+Kep. Riau,Q4 2024,48.41,309.16
+Kep. Riau,Q1 2025,55.09,318.06
+Kep. Riau,Q2 2025,54.04,318.91
+Kep. Riau,Q3 2025,52.72,319.56
+Kep. Riau,Q4 2025,51.74,321.21
+DKI Jakarta,Q1 2024,1297.33,3611.11
+DKI Jakarta,Q2 2024,1311.31,3680.74
+DKI Jakarta,Q3 2024,1428.99,3752.93
+DKI Jakarta,Q4 2024,1541.43,3761.16
+DKI Jakarta,Q1 2025,1634.67,3780.04
+DKI Jakarta,Q2 2025,1664.92,3917.34
+DKI Jakarta,Q3 2025,1700.93,3961.03
+DKI Jakarta,Q4 2025,1964.96,3994.91
+Jawa Barat,Q1 2024,960.78,2638.89
+Jawa Barat,Q2 2024,1008.24,2673.03
+Jawa Barat,Q3 2024,1097.53,2737.43
+Jawa Barat,Q4 2024,1168.05,2757.76
+Jawa Barat,Q1 2025,1223.45,2818.54
+Jawa Barat,Q2 2025,1298.52,2815.43
+Jawa Barat,Q3 2025,1214.67,2888.78
+Jawa Barat,Q4 2025,1162.11,2923.85
+Jawa Tengah,Q1 2024,760.82,1750.0
+Jawa Tengah,Q2 2024,792.0,1773.8
+Jawa Tengah,Q3 2024,813.85,1811.95
+Jawa Tengah,Q4 2024,854.56,1806.98
+Jawa Tengah,Q1 2025,857.82,1857.84
+Jawa Tengah,Q2 2025,999.43,1922.89
+Jawa Tengah,Q3 2025,1006.56,1938.49
+Jawa Tengah,Q4 2025,987.27,1882.11
+DI Yogyakarta,Q1 2024,48.13,124.81
+DI Yogyakarta,Q2 2024,50.15,126.28
+DI Yogyakarta,Q3 2024,50.36,128.68
+DI Yogyakarta,Q4 2024,56.88,129.61
+DI Yogyakarta,Q1 2025,62.4,132.58
+DI Yogyakarta,Q2 2025,61.42,132.6
+DI Yogyakarta,Q3 2025,61.3,132.41
+DI Yogyakarta,Q4 2025,58.24,133.91
+Jawa Timur,Q1 2024,853.67,2916.67
+Jawa Timur,Q2 2024,876.04,2959.64
+Jawa Timur,Q3 2024,910.01,2998.25
+Jawa Timur,Q4 2024,1005.78,3008.13
+Jawa Timur,Q1 2025,1016.09,3092.03
+Jawa Timur,Q2 2025,1160.48,3086.26
+Jawa Timur,Q3 2025,1021.94,3096.31
+Jawa Timur,Q4 2025,1213.11,3238.33
+Banten,Q1 2024,17.68,119.07
+Banten,Q2 2024,18.9,120.72
+Banten,Q3 2024,20.61,121.92
+Banten,Q4 2024,19.07,122.71
+Banten,Q1 2025,20.15,124.18
+Banten,Q2 2025,21.86,125.17
+Banten,Q3 2025,24.89,127.06
+Banten,Q4 2025,25.65,134.72
+Bali,Q1 2024,39.75,159.54
+Bali,Q2 2024,41.19,162.42
+Bali,Q3 2024,45.38,163.91
+Bali,Q4 2024,47.13,168.78
+Bali,Q1 2025,50.62,170.71
+Bali,Q2 2025,51.95,174.71
+Bali,Q3 2025,52.81,172.17
+Bali,Q4 2025,59.66,170.83
+Nusa Tenggara Barat,Q1 2024,57.35,233.7
+Nusa Tenggara Barat,Q2 2024,63.88,237.38
+Nusa Tenggara Barat,Q3 2024,65.37,239.75
+Nusa Tenggara Barat,Q4 2024,66.83,245.99
+Nusa Tenggara Barat,Q1 2025,75.21,243.9
+Nusa Tenggara Barat,Q2 2025,73.23,251.81
+Nusa Tenggara Barat,Q3 2025,77.43,252.65
+Nusa Tenggara Barat,Q4 2025,72.11,262.52
+Nusa Tenggara Timur,Q1 2024,83.64,202.31
+Nusa Tenggara Timur,Q2 2024,89.08,206.0
+Nusa Tenggara Timur,Q3 2024,94.68,206.7
+Nusa Tenggara Timur,Q4 2024,104.8,210.63
+Nusa Tenggara Timur,Q1 2025,110.54,218.39
+Nusa Tenggara Timur,Q2 2025,113.34,213.28
+Nusa Tenggara Timur,Q3 2025,120.32,219.6
+Nusa Tenggara Timur,Q4 2025,128.49,223.45
+Kalimantan Barat,Q1 2024,58.39,152.96
+Kalimantan Barat,Q2 2024,59.67,155.49
+Kalimantan Barat,Q3 2024,66.53,158.97
+Kalimantan Barat,Q4 2024,66.52,161.54
+Kalimantan Barat,Q1 2025,69.18,159.16
+Kalimantan Barat,Q2 2025,80.35,167.43
+Kalimantan Barat,Q3 2025,79.4,162.82
+Kalimantan Barat,Q4 2025,83.18,169.27
+Kalimantan Tengah,Q1 2024,128.66,264.44
+Kalimantan Tengah,Q2 2024,135.93,269.47
+Kalimantan Tengah,Q3 2024,134.78,274.76
+Kalimantan Tengah,Q4 2024,155.97,277.3
+Kalimantan Tengah,Q1 2025,148.47,279.93
+Kalimantan Tengah,Q2 2025,158.52,278.69
+Kalimantan Tengah,Q3 2025,190.44,291.39
+Kalimantan Tengah,Q4 2025,177.45,298.02
+Kalimantan Selatan,Q1 2024,31.19,100.42
+Kalimantan Selatan,Q2 2024,34.43,102.15
+Kalimantan Selatan,Q3 2024,35.35,104.3
+Kalimantan Selatan,Q4 2024,37.99,103.51
+Kalimantan Selatan,Q1 2025,38.18,108.4
+Kalimantan Selatan,Q2 2025,37.66,107.35
+Kalimantan Selatan,Q3 2025,46.93,111.49
+Kalimantan Selatan,Q4 2025,43.33,109.37
+Kalimantan Timur,Q1 2024,25.69,156.39
+Kalimantan Timur,Q2 2024,27.85,158.82
+Kalimantan Timur,Q3 2024,29.24,162.17
+Kalimantan Timur,Q4 2024,28.49,161.69
+Kalimantan Timur,Q1 2025,33.3,164.07
+Kalimantan Timur,Q2 2025,33.49,167.01
+Kalimantan Timur,Q3 2025,30.92,170.65
+Kalimantan Timur,Q4 2025,37.51,176.67
+Kalimantan Utara,Q1 2024,73.4,178.24
+Kalimantan Utara,Q2 2024,75.83,180.07
+Kalimantan Utara,Q3 2024,83.5,184.32
+Kalimantan Utara,Q4 2024,81.09,183.67
+Kalimantan Utara,Q1 2025,87.41,188.17
+Kalimantan Utara,Q2 2025,93.4,190.26
+Kalimantan Utara,Q3 2025,98.53,193.18
+Kalimantan Utara,Q4 2025,105.61,202.56
+Sulawesi Utara,Q1 2024,92.27,209.63
+Sulawesi Utara,Q2 2024,94.47,213.78
+Sulawesi Utara,Q3 2024,100.02,216.48
+Sulawesi Utara,Q4 2024,100.62,216.73
+Sulawesi Utara,Q1 2025,102.67,219.18
+Sulawesi Utara,Q2 2025,117.72,223.73
+Sulawesi Utara,Q3 2025,131.37,230.6
+Sulawesi Utara,Q4 2025,114.13,224.9
+Sulawesi Tengah,Q1 2024,111.74,322.87
+Sulawesi Tengah,Q2 2024,114.91,327.59
+Sulawesi Tengah,Q3 2024,121.22,332.58
+Sulawesi Tengah,Q4 2024,132.49,340.3
+Sulawesi Tengah,Q1 2025,138.54,347.07
+Sulawesi Tengah,Q2 2025,153.63,343.48
+Sulawesi Tengah,Q3 2025,161.42,345.82
+Sulawesi Tengah,Q4 2025,144.09,356.42
+Sulawesi Selatan,Q1 2024,53.27,122.78
+Sulawesi Selatan,Q2 2024,56.16,124.32
+Sulawesi Selatan,Q3 2024,61.43,126.49
+Sulawesi Selatan,Q4 2024,61.8,128.11
+Sulawesi Selatan,Q1 2025,65.13,129.01
+Sulawesi Selatan,Q2 2025,65.6,130.89
+Sulawesi Selatan,Q3 2025,66.21,131.03
+Sulawesi Selatan,Q4 2025,81.68,137.21
+Sulawesi Tenggara,Q1 2024,73.79,230.74
+Sulawesi Tenggara,Q2 2024,78.24,234.77
+Sulawesi Tenggara,Q3 2024,80.3,236.67
+Sulawesi Tenggara,Q4 2024,84.88,241.61
+Sulawesi Tenggara,Q1 2025,89.34,245.56
+Sulawesi Tenggara,Q2 2025,88.06,244.04
+Sulawesi Tenggara,Q3 2025,91.52,247.17
+Sulawesi Tenggara,Q4 2025,95.69,261.38
+Gorontalo,Q1 2024,84.92,255.37
+Gorontalo,Q2 2024,90.23,258.94
+Gorontalo,Q3 2024,99.39,264.65
+Gorontalo,Q4 2024,94.64,268.15
+Gorontalo,Q1 2025,110.98,271.42
+Gorontalo,Q2 2025,104.42,270.53
+Gorontalo,Q3 2025,108.09,278.47
+Gorontalo,Q4 2025,108.55,284.16
+Sulawesi Barat,Q1 2024,19.9,67.04
+Sulawesi Barat,Q2 2024,20.94,67.74
+Sulawesi Barat,Q3 2024,21.41,68.46
+Sulawesi Barat,Q4 2024,24.43,70.68
+Sulawesi Barat,Q1 2025,23.37,71.76
+Sulawesi Barat,Q2 2025,25.75,71.77
+Sulawesi Barat,Q3 2025,25.83,74.4
+Sulawesi Barat,Q4 2025,30.41,75.16
+Maluku,Q1 2024,30.97,261.39
+Maluku,Q2 2024,33.57,266.2
+Maluku,Q3 2024,34.06,267.67
+Maluku,Q4 2024,34.54,275.62
+Maluku,Q1 2025,39.34,275.6
+Maluku,Q2 2025,42.82,285.13
+Maluku,Q3 2025,41.0,284.33
+Maluku,Q4 2025,41.58,288.88
+Maluku Utara,Q1 2024,17.86,110.65
+Maluku Utara,Q2 2024,18.87,112.45
+Maluku Utara,Q3 2024,19.15,114.25
+Maluku Utara,Q4 2024,19.79,116.6
+Maluku Utara,Q1 2025,21.89,119.03
+Maluku Utara,Q2 2025,23.44,117.91
+Maluku Utara,Q3 2025,22.23,117.51
+Maluku Utara,Q4 2025,24.96,125.18
+Papua Barat,Q1 2024,9.31,73.06
+Papua Barat,Q2 2024,9.72,74.08
+Papua Barat,Q3 2024,10.35,74.85
+Papua Barat,Q4 2024,11.1,76.65
+Papua Barat,Q1 2025,11.59,76.71
+Papua Barat,Q2 2025,11.25,80.03
+Papua Barat,Q3 2025,12.42,79.46
+Papua Barat,Q4 2025,14.04,81.17
+Papua,Q1 2024,131.47,366.48
+Papua,Q2 2024,142.78,372.22
+Papua,Q3 2024,150.07,378.99
+Papua,Q4 2024,146.06,384.15
+Papua,Q1 2025,158.93,394.84
+Papua,Q2 2025,180.55,386.88
+Papua,Q3 2025,194.89,391.21
+Papua,Q4 2025,202.49,405.45
+Papua Tengah,Q1 2024,3.86,44.63
+Papua Tengah,Q2 2024,4.1,45.08
+Papua Tengah,Q3 2024,4.22,46.0
+Papua Tengah,Q4 2024,4.73,46.43
+Papua Tengah,Q1 2025,4.9,46.82
+Papua Tengah,Q2 2025,4.83,47.25
+Papua Tengah,Q3 2025,5.13,49.76
+Papua Tengah,Q4 2025,5.19,49.73
+Papua Pegunungan,Q1 2024,1.7,30.09
+Papua Pegunungan,Q2 2024,1.8,30.52
+Papua Pegunungan,Q3 2024,1.84,31.0
+Papua Pegunungan,Q4 2024,1.97,31.67
+Papua Pegunungan,Q1 2025,1.99,31.54
+Papua Pegunungan,Q2 2025,2.0,32.31
+Papua Pegunungan,Q3 2025,2.26,33.3
+Papua Pegunungan,Q4 2025,2.32,33.13
+Papua Selatan,Q1 2024,5.25,48.89
+Papua Selatan,Q2 2024,5.52,49.84
+Papua Selatan,Q3 2024,5.7,50.5
+Papua Selatan,Q4 2024,5.94,50.58
+Papua Selatan,Q1 2025,6.65,50.9
+Papua Selatan,Q2 2025,6.26,52.98
+Papua Selatan,Q3 2025,6.13,54.17
+Papua Selatan,Q4 2025,6.7,53.13
+Papua Barat Daya,Q1 2024,4.15,41.94
+Papua Barat Daya,Q2 2024,4.55,42.53
+Papua Barat Daya,Q3 2024,4.68,43.03
+Papua Barat Daya,Q4 2024,5.05,43.31
+Papua Barat Daya,Q1 2025,4.79,43.93
+Papua Barat Daya,Q2 2025,5.42,45.91
+Papua Barat Daya,Q3 2025,5.95,45.11
+Papua Barat Daya,Q4 2025,5.65,45.67

@@ -1,0 +1,39 @@
+Provinsi,PDRB_Triliun,Tingkat_Kemiskinan_Persen,Volume_QRIS_Juta,Economic_Resilience_Index,Digital_Adoption_Score,Cluster,Status
+Aceh,195.42,12.22,32.18,2.98,1.9,1,Rentan
+Sumatera Utara,412.3,8.45,248.6,3.99,15.6,1,Rentan
+Sumatera Barat,328.15,5.95,168.4,4.02,10.5,1,Rentan
+Riau,283.7,4.68,63.25,3.9,3.9,1,Rentan
+Jambi,113.25,10.82,15.8,3.03,0.9,1,Rentan
+Sumatera Selatan,115.8,8.12,59.7,3.4,3.7,1,Rentan
+Bengkulu,76.45,5.01,36.1,3.64,2.2,1,Rentan
+Lampung,381.2,8.95,182.5,3.78,11.4,1,Rentan
+Kep. Bangka Belitung,279.15,4.05,140.2,4.12,8.8,1,Rentan
+Kep. Riau,320.5,12.85,52.4,3.06,3.2,1,Rentan
+DKI Jakarta,3900.0,4.03,1580.0,10.0,100.0,2,Tangguh
+Jawa Barat,2850.0,7.18,1180.0,8.0,74.6,0,Transisi
+Jawa Tengah,1890.0,6.92,940.0,6.76,59.4,0,Transisi
+DI Yogyakarta,134.8,9.15,58.6,3.3,3.6,1,Rentan
+Jawa Timur,3150.0,9.48,1050.0,7.75,66.4,0,Transisi
+Banten,128.6,5.52,21.8,3.61,1.2,1,Rentan
+Bali,172.3,3.42,48.7,3.92,3.0,1,Rentan
+Nusa Tenggara Barat,252.4,11.65,72.3,3.17,4.4,1,Rentan
+Nusa Tenggara Timur,218.5,17.5,105.4,2.59,6.5,1,Rentan
+Kalimantan Barat,165.2,12.4,72.5,3.02,4.5,1,Rentan
+Kalimantan Tengah,285.6,9.85,158.3,3.56,9.9,1,Rentan
+Kalimantan Selatan,108.45,3.73,39.2,3.81,2.4,1,Rentan
+Kalimantan Timur,168.9,4.55,31.4,3.76,1.9,1,Rentan
+Kalimantan Utara,192.5,5.78,90.8,3.77,5.6,1,Rentan
+Sulawesi Utara,226.4,4.12,112.5,4.01,7.0,1,Rentan
+Sulawesi Tengah,348.7,10.52,139.8,3.5,8.7,1,Rentan
+Sulawesi Selatan,132.6,7.68,66.4,3.47,4.1,1,Rentan
+Sulawesi Tenggara,249.2,6.45,91.5,3.75,5.7,1,Rentan
+Gorontalo,275.8,12.62,105.2,3.15,6.5,1,Rentan
+Sulawesi Barat,72.4,7.28,24.6,3.38,1.4,1,Rentan
+Maluku,282.3,15.25,38.9,2.75,2.3,1,Rentan
+Maluku Utara,119.5,9.3,21.8,3.2,1.2,1,Rentan
+Papua Barat,78.9,19.58,11.4,2.07,0.6,1,Rentan
+Papua,395.8,17.82,162.3,2.82,10.2,1,Rentan
+Papua Tengah,48.2,29.45,4.8,1.0,0.2,1,Rentan
+Papua Pegunungan,32.5,27.21,2.1,1.22,0.0,1,Rentan
+Papua Selatan,52.8,19.26,6.5,2.07,0.3,1,Rentan
+Papua Barat Daya,45.3,17.5,5.2,2.25,0.2,1,Rentan
