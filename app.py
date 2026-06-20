@@ -5,7 +5,7 @@ import plotly.express as px
 import joblib
 
 # --- CONFIG UI ---
-st.set_page_config(page_title="Economic Resilience Intelligence", page_icon="📈", layout="wide")
+st.set_page_config(page_title="NamaTimnyaApa RI", layout="wide")
 
 # --- 1. DATA LOADER ---
 @st.cache_data
@@ -40,7 +40,7 @@ cluster_map = {
 df['Status'] = df['Cluster'].map(cluster_map)
 
 # --- 3. UI / UX DASHBOARD ---
-st.title("📊 Regional Economic Resilience Intelligence")
+st.title("NamaTimnyaApa RI")
 st.markdown("**AI-Powered Decision Support System | Microsoft Elevate Datathon 2026**")
 st.divider()
 
